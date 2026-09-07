@@ -1,33 +1,426 @@
 
-timing -sethld -v 10 -u 10 -endpoints 10 -nperend 1 -sp High-Performance_1.2V -hsp m   -pwrprd -html -rpt "lab1_impl_1.twr" "lab1_impl_1.udb" 
-timing -sethld -v 10 -u 10 -endpoints 10 -nperend 1 -sp High-Performance_1.2V -hsp m -pwrprd -html -rpt lab1_impl_1.twr lab1_impl_1.udb -gui -msgset C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/promote.xml
-Starting design reading...
-Loading device for application GENERIC from file 'itpa08.nph' in environment: C:/lscc/radiant/2026.1/ispfpga.
-Package Status:                     Preliminary    Version 1.5.
-Performance Hardware Data Status:   Advanced       Version 1.0.
-Loading udb::Database ...
-Design:  segment
-Family:  iCE40UP
-Device:  iCE40UP5K
-Package: SG48
-Performance Grade:   High-Performance_1.2V
+"C:/lscc/radiant/2026.1/tcltk/windows/bin/tclsh" "lab1_impl_1_synthesize.tcl"
+
+cpe -syn lse -f lab1_impl_1.cprj -a iCE40UP -o lab1_impl_1_cpe.ldc
+CPE: Constraint Propagation Engine: starting
+CRITICAL <35831036> - No top module name specified for top-level design. Results may be inaccurate. Please go to View->Show Views->Hierarchy or Project->Active Implementation->Set Top-Level Unit in order to set top module.
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\standard.vhd. VHDL-1481
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\standard.vhd
+
+INFO <35921014> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\standard.vhd(9): analyzing package standard. VHDL-1014
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\std_1164.vhd. VHDL-1481
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\std_1164.vhd
+
+INFO <35921014> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\std_1164.vhd(15): analyzing package std_logic_1164. VHDL-1014
+INFO <35921013> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\std_1164.vhd(178): analyzing package body std_logic_1164. VHDL-1013
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\mgc_qsim.vhd. VHDL-1481
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\mgc_qsim.vhd
+
+INFO <35921014> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\mgc_qsim.vhd(18): analyzing package qsim_logic. VHDL-1014
+INFO <35921013> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\mgc_qsim.vhd(753): analyzing package body qsim_logic. VHDL-1013
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\numeric_bit.vhd. VHDL-1481
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\numeric_bit.vhd
+
+INFO <35921014> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\numeric_bit.vhd(54): analyzing package numeric_bit. VHDL-1014
+INFO <35921013> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\numeric_bit.vhd(834): analyzing package body numeric_bit. VHDL-1013
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\numeric_std.vhd. VHDL-1481
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\numeric_std.vhd
+
+INFO <35921014> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\numeric_std.vhd(57): analyzing package numeric_std. VHDL-1014
+INFO <35921013> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\numeric_std.vhd(874): analyzing package body numeric_std. VHDL-1013
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\textio.vhd. VHDL-1481
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\textio.vhd
+
+INFO <35921014> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\textio.vhd(13): analyzing package textio. VHDL-1014
+INFO <35921013> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\textio.vhd(114): analyzing package body textio. VHDL-1013
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\std_logic_textio.vhd. VHDL-1481
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\std_logic_textio.vhd
+
+INFO <35921014> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\std_logic_textio.vhd(26): analyzing package std_logic_textio. VHDL-1014
+INFO <35921013> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\std_logic_textio.vhd(72): analyzing package body std_logic_textio. VHDL-1013
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\syn_misc.vhd. VHDL-1481
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\syn_misc.vhd
+
+INFO <35921014> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\syn_misc.vhd(30): analyzing package std_logic_misc. VHDL-1014
+INFO <35921013> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\syn_misc.vhd(182): analyzing package body std_logic_misc. VHDL-1013
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\math_real.vhd. VHDL-1481
+INFO <35921014> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\math_real.vhd(56): analyzing package math_real. VHDL-1014
+INFO <35921013> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\math_real.vhd(685): analyzing package body math_real. VHDL-1013
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\mixed_lang_vltype.vhd. VHDL-1481
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\mixed_lang_vltype.vhd
+
+INFO <35921014> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\mixed_lang_vltype.vhd(9): analyzing package vl_types. VHDL-1014
+INFO <35921013> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\mixed_lang_vltype.vhd(88): analyzing package body vl_types. VHDL-1013
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\syn_arit.vhd. VHDL-1481
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\syn_arit.vhd
+
+INFO <35921014> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\syn_arit.vhd(25): analyzing package std_logic_arith. VHDL-1014
+INFO <35921013> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\syn_arit.vhd(206): analyzing package body std_logic_arith. VHDL-1013
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\syn_attr.vhd. VHDL-1481
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\syn_attr.vhd
+
+INFO <35921014> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\syn_attr.vhd(39): analyzing package attributes. VHDL-1014
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\syn_sign.vhd. VHDL-1481
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\syn_sign.vhd
+
+INFO <35921014> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\syn_sign.vhd(35): analyzing package std_logic_signed. VHDL-1014
+INFO <35921013> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\syn_sign.vhd(96): analyzing package body std_logic_signed. VHDL-1013
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\syn_unsi.vhd. VHDL-1481
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\syn_unsi.vhd
+
+INFO <35921014> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\syn_unsi.vhd(35): analyzing package std_logic_unsigned. VHDL-1014
+INFO <35921013> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\syn_unsi.vhd(94): analyzing package body std_logic_unsigned. VHDL-1013
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\synattr.vhd. VHDL-1481
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\synattr.vhd
+
+INFO <35921014> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\synattr.vhd(50): analyzing package attributes. VHDL-1014
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\..\cae_library\synthesis\vhdl\iCE40UP.vhd. VHDL-1481
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\..\cae_library\synthesis\vhdl\iCE40UP.vhd
+
+Analyzing Verilog file C:/lscc/radiant/2026.1/ispfpga\..\cae_library\synthesis\verilog\iCE40UP.v. VERI-1482
+Analyzing Verilog file C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v. VERI-1482
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v(1): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/pmi_addsub.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_addsub.v(40): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../common/adder_subtractor/rtl/lscc_add_sub.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v(2): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/pmi_add.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_add.v(50): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../common/adder/rtl/lscc_adder.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v(3): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/pmi_complex_mult.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_complex_mult.v(52): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../common/complex_mult/rtl/lscc_complex_mult.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v(4): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/pmi_counter.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_counter.v(39): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../common/counter/rtl/lscc_cntr.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v(5): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/pmi_fifo.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_fifo.v(44): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../common/fifo/rtl/lscc_fifo.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v(6): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/pmi_fifo_dc.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_fifo_dc.v(47): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../common/fifo_dc/rtl/lscc_fifo_dc.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_fifo_dc.v(48): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(128): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_distributed_ram.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(129): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_ecc.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(130): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(131): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_gray_reg.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(132): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_gray_synchronizer.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(133): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_harden_prim.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(134): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_harden_rd_ctrl_logic.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(135): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_harden_rd_output_logic.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(136): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_harden_ring_counter.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(137): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_harden_wr_ctrl_logic.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(138): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_harden.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(139): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_prim_gen.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(140): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_rd_ctrl_logic.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(141): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_wr_ctrl_logic.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v(7): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/pmi_mac.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_mac.v(52): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../common/mult_accumulate/rtl/lscc_mult_accumulate.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v(8): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/pmi_multaddsubsum.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_multaddsubsum.v(53): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../common/mult_add_sub_sum/rtl/lscc_mult_add_sub_sum.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v(9): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/pmi_multaddsub.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_multaddsub.v(52): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../common/mult_add_sub/rtl/lscc_mult_add_sub.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v(10): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/pmi_mult.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_mult.v(51): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../common/multiplier/rtl/lscc_multiplier.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v(11): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/pmi_ram_dp.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_ram_dp.v(48): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../common/ram_dp/rtl/lscc_ram_dp.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_ram_dp.v(49): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v(438): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_impl.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_impl.v(64): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_behavioral.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_impl.v(66): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_lut_decode.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_impl.v(478): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_functions.vh. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_impl.v(609): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_functions.vh. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_impl.v(1511): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_functions.vh. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_impl.v(2456): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_functions.vh. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_impl.v(4673): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_functions.vh. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v(12): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/pmi_ram_dq.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_ram_dq.v(45): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../common/ram_dq/rtl/lscc_ram_dq.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_ram_dq.v(46): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v(2839): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dq/rtl/hsiao_ecc_encoder.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v(2840): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dq/rtl/hsiao_ecc_decoder.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v(2841): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq_lut_decode.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v(13): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/pmi_rom.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_rom.v(45): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../common/rom/rtl/lscc_rom.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v(14): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/pmi_sub.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_sub.v(50): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../common/subtractor/rtl/lscc_subtractor.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v(15): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/pmi_ram_dp_be.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_ram_dp_be.v(49): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../common/ram_dp/rtl/lscc_ram_dp.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_ram_dp_be.v(50): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v(438): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_impl.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v(16): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/pmi_ram_dq_be.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_ram_dq_be.v(45): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../common/ram_dq/rtl/lscc_ram_dq.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_ram_dq_be.v(46): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v(2839): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dq/rtl/hsiao_ecc_encoder.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v(2840): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dq/rtl/hsiao_ecc_decoder.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v(2841): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq_lut_decode.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v(17): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/pmi_dsp.v. VERI-1328
+Analyzing Verilog file C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_7segment.sv. VERI-1482
+Analyzing Verilog file C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv. VERI-1482
+WARNING <35901208> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv(20): literal value truncated to fit in 752556928 bits. VERI-1208
+Analyzing Verilog file C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv. VERI-1482
+Analyzing VHDL file C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.vhd. VHDL-1481
+Analyzing VHDL file C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.vhd
+
+INFO <35921014> - C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.vhd(4): analyzing package components. VHDL-1014
+Setting 'top' as the top-level module.
+Top module name (Verilog): top
+INFO <35901018> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv(7): compiling module top. VERI-1018
+INFO <35901018> - C:/lscc/radiant/2026.1/ispfpga\..\cae_library\synthesis\verilog\iCE40UP.v(756): compiling module HSOSC(CLKHF_DIV=2&apos;b01). VERI-1018
+INFO <35901018> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv(6): compiling module blink. VERI-1018
+WARNING <35901209> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv(25): expression size 32 truncated to fit in target size 25. VERI-1209
+INFO <35901018> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_7segment.sv(7): compiling module segment. VERI-1018
+WARNING <35931002> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv(14): net reset does not have a driver. VDB-1002
+Source compile complete.
+Writing output files.
+CPE Completed. lab1_impl_1_cpe.ldc and CPEReport.txt produced.
+CPE: Constraint Propagation Engine: completed
 
 
 
-Successfully loading udb, 0.03 seconds
+synthesis -f C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/impl_1/lab1_impl_1_lattice.synproj -logfile lab1_impl_1_lattice.srp
+synthesis:  version Radiant Software (64-bit) 2026.1.0.37.0
 
-Initializing timer
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2026 Lattice Semiconductor Corporation,  All rights reserved.
+Sun Sep  6 16:35:49 2026
+
+
+Command Line:  C:\lscc\radiant\2026.1\ispfpga\bin\nt64\synthesis.exe -f C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/impl_1/lab1_impl_1_lattice.synproj -logfile lab1_impl_1_lattice.srp -gui -msgset C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/promote.xml 
+
+Lattice Synthesis Engine launched.
+
+CRITICAL <35002005> - synthesis: Top-level unit not specified. This may cause functional errors after synthesis.
+Please set the correct top-level unit via:
+  - GUI: Project > Active Implementation > Set Top-Level Unit...
+  - TCL: prj_set_top_module <name>
+  - CLI: -top <name>
+
+Synthesis options:
+The -a option is iCE40UP.
+The -t option is SG48.
+The -sp option is High-Performance_1.2V.
+The -p option is iCE40UP5K.
+
+###################### Device Information ######################
+----------------------------------------------------------------
+Lattice Family        | iCE40UP
+----------------------------------------------------------------
+Device                | iCE40UP5K
+----------------------------------------------------------------
+Package               | SG48
+----------------------------------------------------------------
+Performance Grade     | High-Performance_1.2V
+----------------------------------------------------------------
+################################################################
+
+####################### Device Resources #######################
+----------------------------------------------------------------
+Logic Cells           | 5280
+----------------------------------------------------------------
+RAM Blocks            | 30
+----------------------------------------------------------------
+DSP Blocks            | 8
+----------------------------------------------------------------
+PLLs                  | 1
+----------------------------------------------------------------
+I/O Pins              | 56
+----------------------------------------------------------------
+################################################################
+
+Resolving user-selected strategy settings...
+
+INFO <35001797> - Use DCC Insertion disabled by default.
+
+###################### Strategy Settings #######################
+----------------------------------------------------------------
+Optimization Goal     | Area
+----------------------------------------------------------------
+Top-level Module Name | 
+----------------------------------------------------------------
+Target Frequency      | 200.000 MHz
+----------------------------------------------------------------
+Maximum Fanout        | 1000
+----------------------------------------------------------------
+Timing Path Count     | 3
+----------------------------------------------------------------
+RAM Read/Write Check  | False
+----------------------------------------------------------------
+BRAM Utilization      | 100.0%
+----------------------------------------------------------------
+DSP Usage             | True
+----------------------------------------------------------------
+DSP Utilization       | 100.0%
+----------------------------------------------------------------
+FSM Encoding Style    | Auto
+----------------------------------------------------------------
+Resolve Mixed Drivers | False
+----------------------------------------------------------------
+Fix Gated Clocks      | True
+----------------------------------------------------------------
+Mux Style             | Auto
+----------------------------------------------------------------
+Use Carry Chain       | True
+----------------------------------------------------------------
+Carry Chain Length    | Infinite
+----------------------------------------------------------------
+Loop Limit            | 1950
+----------------------------------------------------------------
+Use I/O Insertion     | True
+----------------------------------------------------------------
+Use I/O Registers     | True
+----------------------------------------------------------------
+Resource Sharing      | True
+----------------------------------------------------------------
+Propagate Constants   | True
+----------------------------------------------------------------
+Remove Duplicate Reg  | True
+----------------------------------------------------------------
+Force GSR             | False
+----------------------------------------------------------------
+ROM Style             | Auto
+----------------------------------------------------------------
+RAM Style             | Auto
+----------------------------------------------------------------
+Remove LOC Properties | False
+----------------------------------------------------------------
+Partition Flow        | False
+----------------------------------------------------------------
+Use DCC Insertion     | None
+----------------------------------------------------------------
+################################################################
+
+
+The -comp option is FALSE.
+The -syn option is FALSE.
+
+Output HDL filename: lab1_impl_1.vm
+-sdc option: SDC file input is lab1_impl_1_cpe.ldc.
+-path . (searchpath added)
+-path .. (searchpath added)
+-path C:/lscc/radiant/2026.1/ispfpga/ice40tp/data (searchpath added)
+Mixed language design
+CRITICAL <35001476> - A top-level module has not been specified for the mixed language design.
+Verilog design file: C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v
+Verilog design file: ../lab1_7segment.sv
+Verilog design file: ../lab1_blinker.sv
+Verilog design file: ../lab1_top.sv
+VHDL library: pmi
+VHDL design file: C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.vhd
+
+Compiling design...
+
+Analyzing Verilog file C:/lscc/radiant/2026.1/ispfpga\..\cae_library\synthesis\verilog\generic.v. VERI-1482
+Analyzing Verilog file C:/lscc/radiant/2026.1/ispfpga\..\cae_library\synthesis\verilog\iCE40UP.v. VERI-1482
+Analyzing Verilog file C:/lscc/radiant/2026.1/ispfpga\..\cae_library\synthesis\verilog\iCE40UP.v. VERI-1482
+Analyzing Verilog file C:/lscc/radiant/2026.1/ispfpga\..\cae_library\simulation\verilog\iCE40UP\iCE40UP_sp.v. VERI-1482
+Analyzing Verilog file C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v. VERI-1482
+Analyzing Verilog file ../lab1_7segment.sv. VERI-1482
+Analyzing Verilog file ../lab1_blinker.sv. VERI-1482
+Analyzing Verilog file ../lab1_top.sv. VERI-1482
+Setting 'top' as the top-level module.
+Top module name (Verilog): top
+INFO <35901018> - ../lab1_top.sv(7): compiling module top. VERI-1018
+INFO <35901018> - C:/lscc/radiant/2026.1/ispfpga\..\cae_library\synthesis\verilog\iCE40UP.v(756): compiling module HSOSC(CLKHF_DIV=2&apos;b01). VERI-1018
+INFO <35901018> - ../lab1_blinker.sv(6): compiling module blink. VERI-1018
+WARNING <35901209> - ../lab1_blinker.sv(25): expression size 32 truncated to fit in target size 25. VERI-1209
+INFO <35901018> - ../lab1_7segment.sv(7): compiling module segment. VERI-1018
+WARNING <35931002> - ../lab1_top.sv(14): net reset does not have a driver. VDB-1002
+[Parameter Setting Section Start]
+
+	[Parameter Settings for Instance(s): hf_osc]
+	(Module: HSOSC)
+		CLKHF_DIV                 2'b01
+
+[Parameter Setting Section End]
+WARNING <35931002> - ../lab1_top.sv(14): net reset does not have a driver. VDB-1002
+
+
+
+WARNING <35002062> - Port rejected for I/O register mapping: s[3]
+WARNING <35002062> - Port rejected for I/O register mapping: s[2]
+WARNING <35002062> - Port rejected for I/O register mapping: s[1]
+WARNING <35002062> - Port rejected for I/O register mapping: s[0]
+INFO <35002061> - Port accepted for I/O register mapping: led[2]
+WARNING <35002062> - Port rejected for I/O register mapping: led[1]
+WARNING <35002062> - Port rejected for I/O register mapping: led[0]
+WARNING <35002062> - Port rejected for I/O register mapping: seg[6]
+WARNING <35002062> - Port rejected for I/O register mapping: seg[5]
+WARNING <35002062> - Port rejected for I/O register mapping: seg[4]
+WARNING <35002062> - Port rejected for I/O register mapping: seg[3]
+WARNING <35002062> - Port rejected for I/O register mapping: seg[2]
+WARNING <35002062> - Port rejected for I/O register mapping: seg[1]
+WARNING <35002062> - Port rejected for I/O register mapping: seg[0]
+INFO <35002039> - Special Primitives IFD1P3AZ and OFD1P3AZ for ThunderPlus are synthesized using IOL_B.
+
+################### Begin Area Report (top)######################
+Number of register bits => 25 of 5280 (0 % )
+CCU2 => 13
+FD1P3XZ => 25
+HSOSC_CORE => 1
+IB => 4
+IOL_B => 1
+LUT4 => 18
+OB => 10
+################### End Area Report ##################
+Number of odd-length carry chains : 1
+Number of even-length carry chains : 0
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 1
+  Net : int_osc, loads : 0
+Clock Enable Nets
+Number of Clock Enables: 0
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : blink/led_c_2__N_40, loads : 34
+  Net : blink/n290, loads : 14
+  Net : blink/n105[23], loads : 14
+  Net : blink/n105[24], loads : 14
+  Net : blink/n288, loads : 13
+  Net : blink/n105[21], loads : 13
+  Net : blink/n105[22], loads : 13
+  Net : blink/n286, loads : 12
+  Net : blink/n105[19], loads : 12
+  Net : blink/n105[20], loads : 12
+################### End Clock Report ##################
+
+################### Begin Constraint Report ######################
+Constraint Summary:
+  Total number of constraints: 0
+  Total number of constraints dropped: 0
+###################  End Constraint Report  ######################
+
+Peak Memory Usage: 88 MB
+
+--------------------------------------------------------------
+Total CPU Time: 0 secs 
+Total REAL Time: 3 secs 
+--------------------------------------------------------------
+Checksum -- synthesis -- netlist: 83d6271bc8774d61ce066e10306c3ad7dacd1386
+
+
+
+postsyn -a iCE40UP -p iCE40UP5K -t SG48 -sp High-Performance_1.2V -oc Industrial -top -w -o lab1_impl_1_syn.udb lab1_impl_1.vm -ldc lab1_impl_1.ldc
+POSTSYN: Post Synthesis Process Radiant Software (64-bit) 2026.1.0.37.0
+Command Line: postsyn -a iCE40UP -p iCE40UP5K -t SG48 -sp High-Performance_1.2V -oc Industrial -top -w -o lab1_impl_1_syn.udb -ldc lab1_impl_1.ldc -gui -msgset C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/promote.xml lab1_impl_1.vm 
+   Architecture:     iCE40UP
+   Device:           iCE40UP5K
+   Package:          SG48
+   Performance:      High-Performance_1.2V
+Reading input file 'lab1_impl_1.vm' ...
+CPU Time to convert: 0.046875
+REAL Time to convert: 0
+convert PEAK Memory Usage: 32 MB
+convert CURRENT Memory Usage: 32 MB
+Reading constraint file 'lab1_impl_1.ldc' ...
+Removing unused logic ...
 Starting design annotation....
-
-Starting full timing analysis...
-Performance Hardware Data Status:   Advanced       Version 1.0.
-Connections ignored  0  counted  42  covered  0
-Changing speed to m;   changing temperature to -40
-
-STA Runtime and Peak Memory Usage :
+ 
+Constraint Summary:
+   Total number of constraints: 2
+   Total number of constraints dropped: 0
+ 
+Writing output file 'lab1_impl_1_syn.udb'.
+POSTSYN finished successfully.
 Total CPU Time: 0 secs 
 Total REAL Time: 0 secs 
-Peak Memory Usage: 94 MB
+Peak Memory Usage: 42 MB
+Checksum -- postsyn: 2c7d68914b80b1c2d2fb96f734d5240b6144ac66
 
- 0.482444s wall, 0.375000s user + 0.078125s system = 0.453125s CPU (93.9%)
 

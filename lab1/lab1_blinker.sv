@@ -6,7 +6,7 @@
 module blink(
 	input   logic int_osc,
 	input   logic reset,
-	output  logic [2:0] led
+	output  logic led
 );
 
 	logic [24:0] counter;
@@ -19,11 +19,11 @@ module blink(
 		//48 Mhz clock, so for 2.4Hz blink every 20 million cycles
 		if(counter == 24'd19_999_999) begin
 			counter <= 0;
-			led[2] <= 1'b1;
+			led <= 1'b1;
 		end
 		else begin
 			counter <= counter + 1;
-			led[2] <= 1'b0;
+			led <= 1'b0;
 		end
 	end
 endmodule

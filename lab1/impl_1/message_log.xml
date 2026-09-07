@@ -758,6 +758,14 @@
             <Navigation>17</Navigation>
         </Message>
         <Message>
+            <ID>35901208</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv(20): </Dynamic>
+            <Dynamic>752556928</Dynamic>
+            <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv</Navigation>
+            <Navigation>20</Navigation>
+        </Message>
+        <Message>
             <ID>35921014</ID>
             <Severity>1</Severity>
             <Dynamic>C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.vhd(4): </Dynamic>
@@ -768,10 +776,51 @@
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/lab1_7segment.sv(7): </Dynamic>
-            <Dynamic>segment</Dynamic>
-            <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/lab1_7segment.sv</Navigation>
+            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv(7): </Dynamic>
+            <Dynamic>top</Dynamic>
+            <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv</Navigation>
             <Navigation>7</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1/ispfpga\..\cae_library\synthesis\verilog\iCE40UP.v(756): </Dynamic>
+            <Dynamic>HSOSC(CLKHF_DIV=2'b01)</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1/ispfpga\..\cae_library\synthesis\verilog\iCE40UP.v</Navigation>
+            <Navigation>756</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv(6): </Dynamic>
+            <Dynamic>blink</Dynamic>
+            <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv</Navigation>
+            <Navigation>6</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv(25): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>25</Dynamic>
+            <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv</Navigation>
+            <Navigation>25</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_7segment.sv(7): </Dynamic>
+            <Dynamic>segment</Dynamic>
+            <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_7segment.sv</Navigation>
+            <Navigation>7</Navigation>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv(14): </Dynamic>
+            <Dynamic>reset</Dynamic>
+            <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv</Navigation>
+            <Navigation>14</Navigation>
         </Message>
         <Message>
             <ID>35001797</ID>
@@ -784,10 +833,133 @@
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>../source/impl_1/lab1_7segment.sv(7): </Dynamic>
-            <Dynamic>segment</Dynamic>
-            <Navigation>../source/impl_1/lab1_7segment.sv</Navigation>
+            <Dynamic>../lab1_top.sv(7): </Dynamic>
+            <Dynamic>top</Dynamic>
+            <Navigation>../lab1_top.sv</Navigation>
             <Navigation>7</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2026.1/ispfpga\..\cae_library\synthesis\verilog\iCE40UP.v(756): </Dynamic>
+            <Dynamic>HSOSC(CLKHF_DIV=2'b01)</Dynamic>
+            <Navigation>C:/lscc/radiant/2026.1/ispfpga\..\cae_library\synthesis\verilog\iCE40UP.v</Navigation>
+            <Navigation>756</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>../lab1_blinker.sv(6): </Dynamic>
+            <Dynamic>blink</Dynamic>
+            <Navigation>../lab1_blinker.sv</Navigation>
+            <Navigation>6</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>16</Severity>
+            <Dynamic>../lab1_blinker.sv(25): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>25</Dynamic>
+            <Navigation>../lab1_blinker.sv</Navigation>
+            <Navigation>25</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>../lab1_7segment.sv(7): </Dynamic>
+            <Dynamic>segment</Dynamic>
+            <Navigation>../lab1_7segment.sv</Navigation>
+            <Navigation>7</Navigation>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>16</Severity>
+            <Dynamic>../lab1_top.sv(14): </Dynamic>
+            <Dynamic>reset</Dynamic>
+            <Navigation>../lab1_top.sv</Navigation>
+            <Navigation>14</Navigation>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>16</Severity>
+            <Dynamic>../lab1_top.sv(14): </Dynamic>
+            <Dynamic>reset</Dynamic>
+            <Navigation>../lab1_top.sv</Navigation>
+            <Navigation>14</Navigation>
+        </Message>
+        <Message>
+            <ID>35002062</ID>
+            <Severity>16</Severity>
+            <Dynamic>s[3]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002062</ID>
+            <Severity>16</Severity>
+            <Dynamic>s[2]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002062</ID>
+            <Severity>16</Severity>
+            <Dynamic>s[1]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002062</ID>
+            <Severity>16</Severity>
+            <Dynamic>s[0]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002061</ID>
+            <Severity>1</Severity>
+            <Dynamic>led[2]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002062</ID>
+            <Severity>16</Severity>
+            <Dynamic>led[1]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002062</ID>
+            <Severity>16</Severity>
+            <Dynamic>led[0]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002062</ID>
+            <Severity>16</Severity>
+            <Dynamic>seg[6]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002062</ID>
+            <Severity>16</Severity>
+            <Dynamic>seg[5]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002062</ID>
+            <Severity>16</Severity>
+            <Dynamic>seg[4]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002062</ID>
+            <Severity>16</Severity>
+            <Dynamic>seg[3]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002062</ID>
+            <Severity>16</Severity>
+            <Dynamic>seg[2]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002062</ID>
+            <Severity>16</Severity>
+            <Dynamic>seg[1]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002062</ID>
+            <Severity>16</Severity>
+            <Dynamic>seg[0]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002039</ID>
+            <Severity>1</Severity>
         </Message>
     </Task>
 </BaliMessageLog>
