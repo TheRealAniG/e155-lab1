@@ -768,42 +768,34 @@
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(5): </Dynamic>
+            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(10): </Dynamic>
             <Dynamic>segment_tb</Dynamic>
             <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv</Navigation>
-            <Navigation>5</Navigation>
-        </Message>
-        <Message>
-            <ID>35901012</ID>
-            <Severity>16</Severity>
-            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(27): </Dynamic>
-            <Dynamic>segment_testvectors.tv</Dynamic>
-            <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv</Navigation>
-            <Navigation>27</Navigation>
+            <Navigation>10</Navigation>
         </Message>
         <Message>
             <ID>35901220</ID>
             <Severity>16</Severity>
-            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(30): </Dynamic>
+            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(40): </Dynamic>
             <Dynamic>reset</Dynamic>
             <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv</Navigation>
-            <Navigation>30</Navigation>
+            <Navigation>40</Navigation>
         </Message>
         <Message>
             <ID>35901142</ID>
             <Severity>16</Severity>
-            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(39): </Dynamic>
+            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(50): </Dynamic>
             <Dynamic>dumpfile</Dynamic>
             <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv</Navigation>
-            <Navigation>39</Navigation>
+            <Navigation>50</Navigation>
         </Message>
         <Message>
             <ID>35901142</ID>
             <Severity>16</Severity>
-            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(40): </Dynamic>
+            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(51): </Dynamic>
             <Dynamic>dumpvars</Dynamic>
             <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv</Navigation>
-            <Navigation>40</Navigation>
+            <Navigation>51</Navigation>
         </Message>
         <Message>
             <ID>35901018</ID>
@@ -812,51 +804,6 @@
             <Dynamic>segment</Dynamic>
             <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_7segment.sv</Navigation>
             <Navigation>7</Navigation>
-        </Message>
-        <Message>
-            <ID>35901330</ID>
-            <Severity>16</Severity>
-            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(13): </Dynamic>
-            <Dynamic>1</Dynamic>
-            <Dynamic>4</Dynamic>
-            <Dynamic>s</Dynamic>
-            <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv</Navigation>
-            <Navigation>13</Navigation>
-        </Message>
-        <Message>
-            <ID>35901330</ID>
-            <Severity>16</Severity>
-            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(13): </Dynamic>
-            <Dynamic>1</Dynamic>
-            <Dynamic>7</Dynamic>
-            <Dynamic>seg</Dynamic>
-            <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv</Navigation>
-            <Navigation>13</Navigation>
-        </Message>
-        <Message>
-            <ID>35901209</ID>
-            <Severity>16</Severity>
-            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(34): </Dynamic>
-            <Dynamic>11</Dynamic>
-            <Dynamic>3</Dynamic>
-            <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv</Navigation>
-            <Navigation>34</Navigation>
-        </Message>
-        <Message>
-            <ID>35901142</ID>
-            <Severity>16</Severity>
-            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(49): </Dynamic>
-            <Dynamic>display</Dynamic>
-            <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv</Navigation>
-            <Navigation>49</Navigation>
-        </Message>
-        <Message>
-            <ID>35901142</ID>
-            <Severity>16</Severity>
-            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(50): </Dynamic>
-            <Dynamic>display</Dynamic>
-            <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv</Navigation>
-            <Navigation>50</Navigation>
         </Message>
         <Message>
             <ID>35901142</ID>
@@ -870,9 +817,33 @@
             <ID>35901142</ID>
             <Severity>16</Severity>
             <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(60): </Dynamic>
-            <Dynamic>finish</Dynamic>
+            <Dynamic>display</Dynamic>
             <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv</Navigation>
             <Navigation>60</Navigation>
+        </Message>
+        <Message>
+            <ID>35901142</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(67): </Dynamic>
+            <Dynamic>display</Dynamic>
+            <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv</Navigation>
+            <Navigation>67</Navigation>
+        </Message>
+        <Message>
+            <ID>35901142</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(68): </Dynamic>
+            <Dynamic>finish</Dynamic>
+            <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv</Navigation>
+            <Navigation>68</Navigation>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(18): </Dynamic>
+            <Dynamic>testvectors</Dynamic>
+            <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv</Navigation>
+            <Navigation>18</Navigation>
         </Message>
         <Message>
             <ID>35833004</ID>

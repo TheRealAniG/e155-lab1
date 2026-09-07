@@ -158,19 +158,16 @@ Analyzing VHDL file C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.vhd
 INFO <35921014> - C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.vhd(4): analyzing package components. VHDL-1014
 Setting 'segment_tb' as the top-level module.
 Top module name (Verilog): segment_tb
-INFO <35901018> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(5): compiling module segment_tb. VERI-1018
-WARNING <35901012> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(27): cannot open file segment_testvectors.tv. VERI-1012
-WARNING <35901220> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(30): using initial value of reset since it is never assigned. VERI-1220
-WARNING <35901142> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(39): system task dumpfile ignored for synthesis. VERI-1142
-WARNING <35901142> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(40): system task dumpvars ignored for synthesis. VERI-1142
+INFO <35901018> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(10): compiling module segment_tb. VERI-1018
+WARNING <35901220> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(40): using initial value of reset since it is never assigned. VERI-1220
+WARNING <35901142> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(50): system task dumpfile ignored for synthesis. VERI-1142
+WARNING <35901142> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(51): system task dumpvars ignored for synthesis. VERI-1142
 INFO <35901018> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_7segment.sv(7): compiling module segment. VERI-1018
-WARNING <35901330> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(13): actual bit length 1 differs from formal bit length 4 for port s. VERI-1330
-WARNING <35901330> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(13): actual bit length 1 differs from formal bit length 7 for port seg. VERI-1330
-WARNING <35901209> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(34): expression size 11 truncated to fit in target size 3. VERI-1209
-WARNING <35901142> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(49): system task display ignored for synthesis. VERI-1142
-WARNING <35901142> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(50): system task display ignored for synthesis. VERI-1142
 WARNING <35901142> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(59): system task display ignored for synthesis. VERI-1142
-WARNING <35901142> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(60): system task finish ignored for synthesis. VERI-1142
+WARNING <35901142> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(60): system task display ignored for synthesis. VERI-1142
+WARNING <35901142> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(67): system task display ignored for synthesis. VERI-1142
+WARNING <35901142> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(68): system task finish ignored for synthesis. VERI-1142
+WARNING <35931002> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(18): net testvectors does not have a driver. VDB-1002
 WARNING <35833004> - Top netlist is empty.
 CRITICAL <35831027> - Source compilation failed.
 CRITICAL <35831014> - Error processing input files.
@@ -186,7 +183,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2026 Lattice Semiconductor Corporation,  All rights reserved.
-Sun Sep  6 21:22:37 2026
+Mon Sep  7 14:43:59 2026
 
 
 Command Line:  C:\lscc\radiant\2026.1\ispfpga\bin\nt64\synthesis.exe -f C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/impl_1/lab1_impl_1_lattice.synproj -logfile lab1_impl_1_lattice.srp -gui -msgset C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/promote.xml 

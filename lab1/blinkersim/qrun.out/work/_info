@@ -1,0 +1,133 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2025.2 2025.05, May 31 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/blinkersim
+vblink
+Z2 2C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_7segment.sv|C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv|C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv|C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/testbenchBLINKER.sv
+Z3 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
+!s110 1788817276
+!i10b 1
+!s100 JAKoe5Zof@nRiImcS1c3X2
+I[cfBDA6bK;B4gI24`X4FC1
+S1
+R1
+w1788817234
+8C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv
+FC:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv
+!i122 5
+L0 6 27
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2025.2;82
+r1
+!s85 0
+31
+!s108 1788817276.000000
+Z6 !s107 C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/testbenchBLINKER.sv|C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv|C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv|C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_7segment.sv|
+Z7 !s90 -reportprogress|300|-L|work|-sv|-L|pmi_work|-L|ovi_ice40up|C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_7segment.sv|C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv|C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv|C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/testbenchBLINKER.sv|-work|qrun.out/work|-statslog|qrun.out/stats_log|-csession=incr|
+!i113 0
+Z8 o-L work -sv -L pmi_work -L ovi_ice40up -work qrun.out/work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 tCvgOpt 0 defaultOptions 1085333592
+vblink_tb
+R2
+R3
+!s110 1788817469
+!i10b 1
+!s100 Ulo9PIYAzZhm;E:73HMCQ3
+IQJ=OJ0AVL0C783eYe<cZf2
+S1
+R1
+w1788817438
+8C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/testbenchBLINKER.sv
+FC:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/testbenchBLINKER.sv
+!i122 6
+L0 8 50
+R4
+R5
+r1
+!s85 0
+31
+!s108 1788817469.000000
+R6
+R7
+!i113 0
+R8
+R9
+Tqrun_opt
+!i145 1
+!i144 0
+!s110 1788817470
+Vm`a==jnfbJVE0@;3RE?NU1
+04 8 4 work blink_tb fast 0
+R0
+!s12f OEM25U2 
+!s12b OEM100
+!s124 OEM100
+!s135 nogc
+o-suppress vopt-7033 -L work +acc +noacc+pmi_work.* +noacc+ovi_ice40up.* -L pmi_work -L ovi_ice40up -work qrun.out/work
+tCvgOpt 0 defaultOptions 1107585188
+nqrun_opt
+OL;O;2025.2;82
+vsegment
+R2
+R3
+Z10 !s110 1788815574
+!i10b 1
+!s100 8e;McG7@f^TRZ8h?b_V_<2
+I?_BTj<4SfNfIL5@3EbV`h1
+S1
+R1
+w1788736437
+8C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_7segment.sv
+FC:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_7segment.sv
+!i122 0
+L0 7 28
+R4
+R5
+r1
+!s85 0
+31
+Z11 !s108 1788815574.000000
+R6
+R7
+!i113 0
+R8
+R9
+vtop
+R2
+R3
+R10
+!i10b 1
+!s100 Okfi0GQi1P8Q<[^aV1m;X3
+I^[KTd?e>9V@IL]a>=PYI82
+S1
+R1
+w1788751235
+8C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv
+FC:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv
+!i122 0
+L0 7 22
+R4
+R5
+r1
+!s85 0
+31
+R11
+R6
+R7
+!i113 0
+R8
+R9

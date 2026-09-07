@@ -14,18 +14,19 @@ module blink #(parameter int WIDTH = 25, parameter int MAXCOUNT = 20000000)
    
 	// Counter
     always_ff @(posedge int_osc) begin
-		if(reset == 0) begin
+		if(reset == 1) begin
 			counter <= 0;
+			led <= 0;
 		end
 		//48 Mhz clock, so for 2.4Hz blink every 20 million cycles
-		if(counter == 24'(MAXCOUNT-1)) begin
+		else if(counter == MAXCOUNT-1) begin
 			counter <= 0;
-			led <= 1'b1;
+			led <= 1;
 		end
 		// LED off otherwise
 		else begin
 			counter <= counter + 1;
-			led <= 1'b0;
+			led <= 0;
 		end
 	end
 endmodule
