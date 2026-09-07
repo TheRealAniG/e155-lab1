@@ -1,6 +1,6 @@
 // Anirudh Gupta
 // anirgupta@g.hmc.edu
-// 9/6/2026
+// 9/7/2026
 // This module tests the reset, enable, and max count of the blinker LED
 
 `timescale 1 ns/1 ns

@@ -8,10 +8,9 @@ module top(
 	input   logic [3:0] s,
 	input   logic       reset,
 	output  logic [2:0] led,
-	output  logic [6:0] seg
+	output  logic [6:0] seg,
+	output 	logic       int_osc
 );
-
-	logic int_osc;
    
     //Clock generation
 	HSOSC #(.CLKHF_DIV(2'b01))
