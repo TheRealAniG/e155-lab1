@@ -14,100 +14,30 @@
 # // and may not be used in any way not expressly authorized by SISW.
 # //
 # Loading project simulation
-# Load canceled
 # Compile of lab1_7segment.sv was successful.
-# Compile of lab1_blinker.sv was successful with warnings.
+# Compile of lab1_blinker.sv was successful.
 # Compile of lab1_top.sv was successful.
 # 3 compiles, 0 failed with no errors.
-vsim -gui work.blink work.segment work.top -voptargs=+acc
+vsim -gui work.blink work.segment work.top -L iCE40UP
 # ** Note: (vsim-220) 'C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/simulation.mpf' is used as the ini file.
-# vsim -gui work.blink work.segment work.top -voptargs="+acc" 
-# Start time: 16:23:57 on Sep 06,2026
+# vsim -gui work.blink work.segment work.top -L iCE40UP 
+# Start time: 20:45:45 on Sep 06,2026
 # ** Note: (vsim-3812) Design is being optimized...
-# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
 # ** Note: (vopt-220) 'C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/simulation.mpf' is used as the ini file.
-# ** Error: C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv(18): Module 'HSOSC' is not defined.
-#  For instance 'hf_osc' at path 'top'
-# Optimization failed
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=1.
-# Error loading design
-# End time: 16:23:59 on Sep 06,2026, Elapsed time: 0:00:02
-# Errors: 1, Warnings: 8
-vsim -gui work.blink work.segment work.top -voptargs=+acc -L iCE40UP
-# ** Note: (vsim-220) 'C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/simulation.mpf' is used as the ini file.
-# vsim -gui work.blink work.segment work.top -voptargs="+acc" -L iCE40UP 
-# Start time: 16:31:23 on Sep 06,2026
-# ** Note: (vsim-3812) Design is being optimized...
-# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
-# ** Note: (vopt-220) 'C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/simulation.mpf' is used as the ini file.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
 # Loading sv_std.std
 # Loading work.blink(fast)
 # Loading work.segment(fast)
 # Loading work.top(fast)
 # Loading iCE40UP.HSOSC(fast)
-# Loading work.blink(fast__1)
-# Loading work.segment(fast__1)
-# ** Error (suppressible): (vsim-3839) Variable '/top/led[1]', driven via a port connection, is multiply driven. See C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv(21).
-#    Time: 0 ps  Iteration: 0  Instance: /top File: C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv Line: 26
-# ** Error (suppressible): (vsim-3839) Variable '/top/led[0]', driven via a port connection, is multiply driven. See C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv(21).
-#    Time: 0 ps  Iteration: 0  Instance: /top File: C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv Line: 25
-# Error loading design
-# End time: 16:31:33 on Sep 06,2026, Elapsed time: 0:00:10
-# Errors: 2, Warnings: 2
-# Compile of lab1_7segment.sv was successful.
-# Compile of lab1_blinker.sv was successful with warnings.
-# Compile of lab1_top.sv was successful.
-# 3 compiles, 0 failed with no errors.
-vsim -gui work.blink work.segment work.top -voptargs=+acc -L iCE40UP
-# ** Note: (vsim-220) 'C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/simulation.mpf' is used as the ini file.
-# vsim -gui work.blink work.segment work.top -voptargs="+acc" -L iCE40UP 
-# Start time: 16:36:26 on Sep 06,2026
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
-# ** Note: (vopt-220) 'C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/simulation.mpf' is used as the ini file.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading sv_std.std
-# Loading work.blink(fast)
-# Loading work.segment(fast)
-# Loading work.top(fast)
-# Loading iCE40UP.HSOSC(fast)
-# Loading work.blink(fast__1)
-# Loading work.segment(fast__1)
-add wave -position end  sim:/top/seg
-add wave -position end  sim:/top/led
-add wave -position end  sim:/top/s
-
-force s 0000
-run 100
-# Causality operation skipped due to absence of debug database file
-force s 0001
-run 100
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-force s 1111
-run 100
-force s 111
-force s 1111
-run 100
-run 1000
-force s 0011
-run 100
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Note: (vsim-8009) Loading existing optimized design _opt
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading work.blink(fast)
-# Loading work.segment(fast)
-# Loading work.top(fast)
-# Loading iCE40UP.HSOSC(fast)
-# Loading work.blink(fast__1)
-# Loading work.segment(fast__1)
-force s 1111
-# ** UI-Msg (Error) (suppressible): (vsim-4008) Object 's' not found.
-# 
 add wave -position insertpoint  \
-sim:/top/s
+sim:/top/s \
+sim:/top/reset \
+sim:/top/led \
+sim:/top/seg \
+sim:/top/int_osc
 force -freeze sim:/top/s 4'b1111 0
 run 100
-# End time: 17:12:26 on Sep 06,2026, Elapsed time: 0:36:00
+# Causality operation skipped due to absence of debug database file
+run 1000000
+# End time: 20:51:14 on Sep 06,2026, Elapsed time: 0:05:29
 # Errors: 0, Warnings: 2

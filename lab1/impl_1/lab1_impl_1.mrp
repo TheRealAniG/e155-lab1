@@ -8,7 +8,7 @@ Package: SG48
 Performance Grade:  High-Performance_1.2V
 
 Mapper:    version Radiant Software (64-bit) 2026.1.0.37.0
-Mapped on: Sun Sep  6 16:20:58 2026
+Mapped on: Sun Sep  6 20:22:44 2026
 
 Design Information
 ------------------
@@ -70,21 +70,22 @@ Design Summary
 Design Summary (cont)
 ---------------------
       Net blink.counter[24]: 2 loads
-      Net blink.n292: 2 loads
-      Net blink.n783: 2 loads
+      Net blink.n290: 2 loads
+      Net blink.n781: 2 loads
 
 
 
 
 
-   Number of warnings:  0
+   Number of warnings:  2
    Number of criticals: 0
    Number of errors:    0
 
 Design Errors/Criticals/Warnings
 --------------------------------
 
-   No error, critical, or warning presents.
+WARNING <71003020> - map: Top module port 'reset' does not connect to anything.
+WARNING <71003020> - map: Top module port 'reset' does not connect to anything.
 
 IO (PIO) Attributes
 -------------------
@@ -127,8 +128,8 @@ Removed logic
 
 Block i1 was optimized away.
 
-
                                     Page 2
+
 
 
 
@@ -147,7 +148,7 @@ OSC 1:                                 Pin/Node Value
 ASIC Components
 ---------------
 
-Instance Name: blink/led[2]
+Instance Name: blink/led
          Type: IOLOGIC
 Instance Name: hf_osc
          Type: HFOSC
@@ -163,9 +164,8 @@ Run Time and Memory Usage
 
    Total CPU Time: 0 secs
    Total REAL Time: 0 secs
-   Peak Memory Usage: 65 MB
-Checksum -- map: e107d6dc160a5020cb46feaa4fa6aff7941f868e
-
+   Peak Memory Usage: 64 MB
+Checksum -- map: a9dca3d6f25b3e011dfe4e6b9c863e277ec44efa
 
 
 

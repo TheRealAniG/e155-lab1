@@ -758,14 +758,6 @@
             <Navigation>17</Navigation>
         </Message>
         <Message>
-            <ID>35901208</ID>
-            <Severity>16</Severity>
-            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv(20): </Dynamic>
-            <Dynamic>752556928</Dynamic>
-            <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv</Navigation>
-            <Navigation>20</Navigation>
-        </Message>
-        <Message>
             <ID>35921014</ID>
             <Severity>1</Severity>
             <Dynamic>C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.vhd(4): </Dynamic>
@@ -776,35 +768,42 @@
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv(7): </Dynamic>
-            <Dynamic>top</Dynamic>
-            <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv</Navigation>
-            <Navigation>7</Navigation>
+            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(5): </Dynamic>
+            <Dynamic>segment_tb</Dynamic>
+            <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv</Navigation>
+            <Navigation>5</Navigation>
         </Message>
         <Message>
-            <ID>35901018</ID>
-            <Severity>1</Severity>
-            <Dynamic>C:/lscc/radiant/2026.1/ispfpga\..\cae_library\synthesis\verilog\iCE40UP.v(756): </Dynamic>
-            <Dynamic>HSOSC(CLKHF_DIV=2'b01)</Dynamic>
-            <Navigation>C:/lscc/radiant/2026.1/ispfpga\..\cae_library\synthesis\verilog\iCE40UP.v</Navigation>
-            <Navigation>756</Navigation>
-        </Message>
-        <Message>
-            <ID>35901018</ID>
-            <Severity>1</Severity>
-            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv(6): </Dynamic>
-            <Dynamic>blink</Dynamic>
-            <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv</Navigation>
-            <Navigation>6</Navigation>
-        </Message>
-        <Message>
-            <ID>35901209</ID>
+            <ID>35901012</ID>
             <Severity>16</Severity>
-            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv(25): </Dynamic>
-            <Dynamic>32</Dynamic>
-            <Dynamic>25</Dynamic>
-            <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv</Navigation>
-            <Navigation>25</Navigation>
+            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(27): </Dynamic>
+            <Dynamic>segment_testvectors.tv</Dynamic>
+            <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv</Navigation>
+            <Navigation>27</Navigation>
+        </Message>
+        <Message>
+            <ID>35901220</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(30): </Dynamic>
+            <Dynamic>reset</Dynamic>
+            <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv</Navigation>
+            <Navigation>30</Navigation>
+        </Message>
+        <Message>
+            <ID>35901142</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(39): </Dynamic>
+            <Dynamic>dumpfile</Dynamic>
+            <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv</Navigation>
+            <Navigation>39</Navigation>
+        </Message>
+        <Message>
+            <ID>35901142</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(40): </Dynamic>
+            <Dynamic>dumpvars</Dynamic>
+            <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv</Navigation>
+            <Navigation>40</Navigation>
         </Message>
         <Message>
             <ID>35901018</ID>
@@ -815,151 +814,90 @@
             <Navigation>7</Navigation>
         </Message>
         <Message>
-            <ID>35931002</ID>
+            <ID>35901330</ID>
             <Severity>16</Severity>
-            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv(14): </Dynamic>
-            <Dynamic>reset</Dynamic>
-            <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv</Navigation>
-            <Navigation>14</Navigation>
+            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(13): </Dynamic>
+            <Dynamic>1</Dynamic>
+            <Dynamic>4</Dynamic>
+            <Dynamic>s</Dynamic>
+            <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv</Navigation>
+            <Navigation>13</Navigation>
+        </Message>
+        <Message>
+            <ID>35901330</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(13): </Dynamic>
+            <Dynamic>1</Dynamic>
+            <Dynamic>7</Dynamic>
+            <Dynamic>seg</Dynamic>
+            <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv</Navigation>
+            <Navigation>13</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(34): </Dynamic>
+            <Dynamic>11</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv</Navigation>
+            <Navigation>34</Navigation>
+        </Message>
+        <Message>
+            <ID>35901142</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(49): </Dynamic>
+            <Dynamic>display</Dynamic>
+            <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv</Navigation>
+            <Navigation>49</Navigation>
+        </Message>
+        <Message>
+            <ID>35901142</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(50): </Dynamic>
+            <Dynamic>display</Dynamic>
+            <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv</Navigation>
+            <Navigation>50</Navigation>
+        </Message>
+        <Message>
+            <ID>35901142</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(59): </Dynamic>
+            <Dynamic>display</Dynamic>
+            <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv</Navigation>
+            <Navigation>59</Navigation>
+        </Message>
+        <Message>
+            <ID>35901142</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(60): </Dynamic>
+            <Dynamic>finish</Dynamic>
+            <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv</Navigation>
+            <Navigation>60</Navigation>
+        </Message>
+        <Message>
+            <ID>35833004</ID>
+            <Severity>16</Severity>
+        </Message>
+        <Message>
+            <ID>35831027</ID>
+            <Severity>256</Severity>
+        </Message>
+        <Message>
+            <ID>35831014</ID>
+            <Severity>256</Severity>
+        </Message>
+        <Message>
+            <ID>35831010</ID>
+            <Severity>4096</Severity>
         </Message>
         <Message>
             <ID>35001797</ID>
             <Severity>1</Severity>
         </Message>
         <Message>
-            <ID>35001476</ID>
-            <Severity>256</Severity>
-        </Message>
-        <Message>
-            <ID>35901018</ID>
-            <Severity>1</Severity>
-            <Dynamic>../lab1_top.sv(7): </Dynamic>
-            <Dynamic>top</Dynamic>
-            <Navigation>../lab1_top.sv</Navigation>
-            <Navigation>7</Navigation>
-        </Message>
-        <Message>
-            <ID>35901018</ID>
-            <Severity>1</Severity>
-            <Dynamic>C:/lscc/radiant/2026.1/ispfpga\..\cae_library\synthesis\verilog\iCE40UP.v(756): </Dynamic>
-            <Dynamic>HSOSC(CLKHF_DIV=2'b01)</Dynamic>
-            <Navigation>C:/lscc/radiant/2026.1/ispfpga\..\cae_library\synthesis\verilog\iCE40UP.v</Navigation>
-            <Navigation>756</Navigation>
-        </Message>
-        <Message>
-            <ID>35901018</ID>
-            <Severity>1</Severity>
-            <Dynamic>../lab1_blinker.sv(6): </Dynamic>
-            <Dynamic>blink</Dynamic>
-            <Navigation>../lab1_blinker.sv</Navigation>
-            <Navigation>6</Navigation>
-        </Message>
-        <Message>
-            <ID>35901209</ID>
-            <Severity>16</Severity>
-            <Dynamic>../lab1_blinker.sv(25): </Dynamic>
-            <Dynamic>32</Dynamic>
-            <Dynamic>25</Dynamic>
-            <Navigation>../lab1_blinker.sv</Navigation>
-            <Navigation>25</Navigation>
-        </Message>
-        <Message>
-            <ID>35901018</ID>
-            <Severity>1</Severity>
-            <Dynamic>../lab1_7segment.sv(7): </Dynamic>
-            <Dynamic>segment</Dynamic>
-            <Navigation>../lab1_7segment.sv</Navigation>
-            <Navigation>7</Navigation>
-        </Message>
-        <Message>
-            <ID>35931002</ID>
-            <Severity>16</Severity>
-            <Dynamic>../lab1_top.sv(14): </Dynamic>
-            <Dynamic>reset</Dynamic>
-            <Navigation>../lab1_top.sv</Navigation>
-            <Navigation>14</Navigation>
-        </Message>
-        <Message>
-            <ID>35931002</ID>
-            <Severity>16</Severity>
-            <Dynamic>../lab1_top.sv(14): </Dynamic>
-            <Dynamic>reset</Dynamic>
-            <Navigation>../lab1_top.sv</Navigation>
-            <Navigation>14</Navigation>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>s[3]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>s[2]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>s[1]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>s[0]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002061</ID>
-            <Severity>1</Severity>
-            <Dynamic>led[2]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>led[1]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>led[0]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>seg[6]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>seg[5]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>seg[4]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>seg[3]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>seg[2]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>seg[1]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>seg[0]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002039</ID>
-            <Severity>1</Severity>
+            <ID>35001494</ID>
+            <Severity>4096</Severity>
+            <Dynamic>lab1_impl_1_cpe.ldc</Dynamic>
         </Message>
     </Task>
 </BaliMessageLog>

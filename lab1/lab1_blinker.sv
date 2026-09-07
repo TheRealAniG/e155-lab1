@@ -3,13 +3,14 @@
 //9/6/2026
 //This module blinks an led at 2.4 Hz
 
-module blink(
+module blink #(parameter int WIDTH = 25, parameter int MAXCOUNT = 20000000)
+(
 	input   logic int_osc,
 	input   logic reset,
 	output  logic led
 );
 
-	logic [24:0] counter;
+	logic [WIDTH-1:0] counter;
    
 	// Counter
     always_ff @(posedge int_osc) begin
@@ -17,10 +18,11 @@ module blink(
 			counter <= 0;
 		end
 		//48 Mhz clock, so for 2.4Hz blink every 20 million cycles
-		if(counter == 24'd19_999_999) begin
+		if(counter == 24'(MAXCOUNT-1)) begin
 			counter <= 0;
 			led <= 1'b1;
 		end
+		// LED off otherwise
 		else begin
 			counter <= counter + 1;
 			led <= 1'b0;

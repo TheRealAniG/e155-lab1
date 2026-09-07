@@ -49,7 +49,7 @@ Package: SG48
 Performance Grade:  High-Performance_1.2V
 
 Mapper:    version Radiant Software (64-bit) 2026.1.0.37.0
-Mapped on: Sun Sep  6 16:20:58 2026
+Mapped on: Sun Sep  6 20:22:44 2026
 
 <A name="mrp_di"></A><B><U><big>Design Information</big></U></B>
 
@@ -100,16 +100,17 @@ Command line:   map -i lab1_impl_1_syn.udb -o lab1_impl_1_map.udb -mp
       Net VCC_net: 3 loads
       Net blink.counter[23]: 2 loads
       Net blink.counter[24]: 2 loads
-      Net blink.n292: 2 loads
-      Net blink.n783: 2 loads
+      Net blink.n290: 2 loads
+      Net blink.n781: 2 loads
 
-   Number of warnings:  0
+   Number of warnings:  2
    Number of criticals: 0
    Number of errors:    0
 
 <A name="mrp_dwe"></A><B><U><big>Design Errors/Criticals/Warnings</big></U></B>
 
-   No error, critical, or warning presents.
+WARNING &lt;71003020&gt; - map: Top module port &apos;reset&apos; does not connect to anything.
+WARNING &lt;71003020&gt; - map: Top module port &apos;reset&apos; does not connect to anything.
 
 <A name="mrp_ioa"></A><B><U><big>IO (PIO) Attributes</big></U></B>
 
@@ -161,7 +162,7 @@ OSC 1:                                 Pin/Node Value
 
 <A name="mrp_asic"></A><B><U><big>ASIC Components</big></U></B>
 
-Instance Name: blink/led[2]
+Instance Name: blink/led
          Type: IOLOGIC
 Instance Name: hf_osc
          Type: HFOSC
@@ -175,8 +176,8 @@ Instance Name: hf_osc
 
    Total CPU Time: 0 secs
    Total REAL Time: 0 secs
-   Peak Memory Usage: 65 MB
-Checksum -- map: e107d6dc160a5020cb46feaa4fa6aff7941f868e
+   Peak Memory Usage: 64 MB
+Checksum -- map: a9dca3d6f25b3e011dfe4e6b9c863e277ec44efa
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995
      AT&amp;T Corp.   All rights reserved.

@@ -148,24 +148,33 @@ INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4
 INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v(17): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/pmi_dsp.v. VERI-1328
 Analyzing Verilog file C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_7segment.sv. VERI-1482
 Analyzing Verilog file C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv. VERI-1482
-WARNING <35901208> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv(20): literal value truncated to fit in 752556928 bits. VERI-1208
 Analyzing Verilog file C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv. VERI-1482
+Analyzing Verilog file C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/testbenchTOP.sv. VERI-1482
+Analyzing Verilog file C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/testbenchBLINKER.sv. VERI-1482
+Analyzing Verilog file C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv. VERI-1482
 Analyzing VHDL file C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.vhd. VHDL-1481
 Analyzing VHDL file C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.vhd
 
 INFO <35921014> - C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.vhd(4): analyzing package components. VHDL-1014
-Setting 'top' as the top-level module.
-Top module name (Verilog): top
-INFO <35901018> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv(7): compiling module top. VERI-1018
-INFO <35901018> - C:/lscc/radiant/2026.1/ispfpga\..\cae_library\synthesis\verilog\iCE40UP.v(756): compiling module HSOSC(CLKHF_DIV=2&apos;b01). VERI-1018
-INFO <35901018> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv(6): compiling module blink. VERI-1018
-WARNING <35901209> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv(25): expression size 32 truncated to fit in target size 25. VERI-1209
+Setting 'segment_tb' as the top-level module.
+Top module name (Verilog): segment_tb
+INFO <35901018> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(5): compiling module segment_tb. VERI-1018
+WARNING <35901012> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(27): cannot open file segment_testvectors.tv. VERI-1012
+WARNING <35901220> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(30): using initial value of reset since it is never assigned. VERI-1220
+WARNING <35901142> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(39): system task dumpfile ignored for synthesis. VERI-1142
+WARNING <35901142> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(40): system task dumpvars ignored for synthesis. VERI-1142
 INFO <35901018> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_7segment.sv(7): compiling module segment. VERI-1018
-WARNING <35931002> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv(14): net reset does not have a driver. VDB-1002
-Source compile complete.
-Writing output files.
-CPE Completed. lab1_impl_1_cpe.ldc and CPEReport.txt produced.
-CPE: Constraint Propagation Engine: completed
+WARNING <35901330> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(13): actual bit length 1 differs from formal bit length 4 for port s. VERI-1330
+WARNING <35901330> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(13): actual bit length 1 differs from formal bit length 7 for port seg. VERI-1330
+WARNING <35901209> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(34): expression size 11 truncated to fit in target size 3. VERI-1209
+WARNING <35901142> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(49): system task display ignored for synthesis. VERI-1142
+WARNING <35901142> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(50): system task display ignored for synthesis. VERI-1142
+WARNING <35901142> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(59): system task display ignored for synthesis. VERI-1142
+WARNING <35901142> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(60): system task finish ignored for synthesis. VERI-1142
+WARNING <35833004> - Top netlist is empty.
+CRITICAL <35831027> - Source compilation failed.
+CRITICAL <35831014> - Error processing input files.
+ERROR <35831010> - Processing input files had at least one error. Exiting.
 
 
 
@@ -177,7 +186,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2026 Lattice Semiconductor Corporation,  All rights reserved.
-Sun Sep  6 16:35:49 2026
+Sun Sep  6 21:22:37 2026
 
 
 Command Line:  C:\lscc\radiant\2026.1\ispfpga\bin\nt64\synthesis.exe -f C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/impl_1/lab1_impl_1_lattice.synproj -logfile lab1_impl_1_lattice.srp -gui -msgset C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/promote.xml 
@@ -290,137 +299,6 @@ The -syn option is FALSE.
 
 Output HDL filename: lab1_impl_1.vm
 -sdc option: SDC file input is lab1_impl_1_cpe.ldc.
--path . (searchpath added)
--path .. (searchpath added)
--path C:/lscc/radiant/2026.1/ispfpga/ice40tp/data (searchpath added)
-Mixed language design
-CRITICAL <35001476> - A top-level module has not been specified for the mixed language design.
-Verilog design file: C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v
-Verilog design file: ../lab1_7segment.sv
-Verilog design file: ../lab1_blinker.sv
-Verilog design file: ../lab1_top.sv
-VHDL library: pmi
-VHDL design file: C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.vhd
+ERROR <35001494> - LDC file lab1_impl_1_cpe.ldc does not exist.
 
-Compiling design...
-
-Analyzing Verilog file C:/lscc/radiant/2026.1/ispfpga\..\cae_library\synthesis\verilog\generic.v. VERI-1482
-Analyzing Verilog file C:/lscc/radiant/2026.1/ispfpga\..\cae_library\synthesis\verilog\iCE40UP.v. VERI-1482
-Analyzing Verilog file C:/lscc/radiant/2026.1/ispfpga\..\cae_library\synthesis\verilog\iCE40UP.v. VERI-1482
-Analyzing Verilog file C:/lscc/radiant/2026.1/ispfpga\..\cae_library\simulation\verilog\iCE40UP\iCE40UP_sp.v. VERI-1482
-Analyzing Verilog file C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v. VERI-1482
-Analyzing Verilog file ../lab1_7segment.sv. VERI-1482
-Analyzing Verilog file ../lab1_blinker.sv. VERI-1482
-Analyzing Verilog file ../lab1_top.sv. VERI-1482
-Setting 'top' as the top-level module.
-Top module name (Verilog): top
-INFO <35901018> - ../lab1_top.sv(7): compiling module top. VERI-1018
-INFO <35901018> - C:/lscc/radiant/2026.1/ispfpga\..\cae_library\synthesis\verilog\iCE40UP.v(756): compiling module HSOSC(CLKHF_DIV=2&apos;b01). VERI-1018
-INFO <35901018> - ../lab1_blinker.sv(6): compiling module blink. VERI-1018
-WARNING <35901209> - ../lab1_blinker.sv(25): expression size 32 truncated to fit in target size 25. VERI-1209
-INFO <35901018> - ../lab1_7segment.sv(7): compiling module segment. VERI-1018
-WARNING <35931002> - ../lab1_top.sv(14): net reset does not have a driver. VDB-1002
-[Parameter Setting Section Start]
-
-	[Parameter Settings for Instance(s): hf_osc]
-	(Module: HSOSC)
-		CLKHF_DIV                 2'b01
-
-[Parameter Setting Section End]
-WARNING <35931002> - ../lab1_top.sv(14): net reset does not have a driver. VDB-1002
-
-
-
-WARNING <35002062> - Port rejected for I/O register mapping: s[3]
-WARNING <35002062> - Port rejected for I/O register mapping: s[2]
-WARNING <35002062> - Port rejected for I/O register mapping: s[1]
-WARNING <35002062> - Port rejected for I/O register mapping: s[0]
-INFO <35002061> - Port accepted for I/O register mapping: led[2]
-WARNING <35002062> - Port rejected for I/O register mapping: led[1]
-WARNING <35002062> - Port rejected for I/O register mapping: led[0]
-WARNING <35002062> - Port rejected for I/O register mapping: seg[6]
-WARNING <35002062> - Port rejected for I/O register mapping: seg[5]
-WARNING <35002062> - Port rejected for I/O register mapping: seg[4]
-WARNING <35002062> - Port rejected for I/O register mapping: seg[3]
-WARNING <35002062> - Port rejected for I/O register mapping: seg[2]
-WARNING <35002062> - Port rejected for I/O register mapping: seg[1]
-WARNING <35002062> - Port rejected for I/O register mapping: seg[0]
-INFO <35002039> - Special Primitives IFD1P3AZ and OFD1P3AZ for ThunderPlus are synthesized using IOL_B.
-
-################### Begin Area Report (top)######################
-Number of register bits => 25 of 5280 (0 % )
-CCU2 => 13
-FD1P3XZ => 25
-HSOSC_CORE => 1
-IB => 4
-IOL_B => 1
-LUT4 => 18
-OB => 10
-################### End Area Report ##################
-Number of odd-length carry chains : 1
-Number of even-length carry chains : 0
-
-################### Begin Clock Report ######################
-Clock Nets
-Number of Clocks: 1
-  Net : int_osc, loads : 0
-Clock Enable Nets
-Number of Clock Enables: 0
-Highest fanout non-clock nets
-Top 10 highest fanout non-clock nets:
-  Net : blink/led_c_2__N_40, loads : 34
-  Net : blink/n290, loads : 14
-  Net : blink/n105[23], loads : 14
-  Net : blink/n105[24], loads : 14
-  Net : blink/n288, loads : 13
-  Net : blink/n105[21], loads : 13
-  Net : blink/n105[22], loads : 13
-  Net : blink/n286, loads : 12
-  Net : blink/n105[19], loads : 12
-  Net : blink/n105[20], loads : 12
-################### End Clock Report ##################
-
-################### Begin Constraint Report ######################
-Constraint Summary:
-  Total number of constraints: 0
-  Total number of constraints dropped: 0
-###################  End Constraint Report  ######################
-
-Peak Memory Usage: 88 MB
-
---------------------------------------------------------------
-Total CPU Time: 0 secs 
-Total REAL Time: 3 secs 
---------------------------------------------------------------
-Checksum -- synthesis -- netlist: 83d6271bc8774d61ce066e10306c3ad7dacd1386
-
-
-
-postsyn -a iCE40UP -p iCE40UP5K -t SG48 -sp High-Performance_1.2V -oc Industrial -top -w -o lab1_impl_1_syn.udb lab1_impl_1.vm -ldc lab1_impl_1.ldc
-POSTSYN: Post Synthesis Process Radiant Software (64-bit) 2026.1.0.37.0
-Command Line: postsyn -a iCE40UP -p iCE40UP5K -t SG48 -sp High-Performance_1.2V -oc Industrial -top -w -o lab1_impl_1_syn.udb -ldc lab1_impl_1.ldc -gui -msgset C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/promote.xml lab1_impl_1.vm 
-   Architecture:     iCE40UP
-   Device:           iCE40UP5K
-   Package:          SG48
-   Performance:      High-Performance_1.2V
-Reading input file 'lab1_impl_1.vm' ...
-CPU Time to convert: 0.046875
-REAL Time to convert: 0
-convert PEAK Memory Usage: 32 MB
-convert CURRENT Memory Usage: 32 MB
-Reading constraint file 'lab1_impl_1.ldc' ...
-Removing unused logic ...
-Starting design annotation....
- 
-Constraint Summary:
-   Total number of constraints: 2
-   Total number of constraints dropped: 0
- 
-Writing output file 'lab1_impl_1_syn.udb'.
-POSTSYN finished successfully.
-Total CPU Time: 0 secs 
-Total REAL Time: 0 secs 
-Peak Memory Usage: 42 MB
-Checksum -- postsyn: 2c7d68914b80b1c2d2fb96f734d5240b6144ac66
-
-
+child process exited abnormally

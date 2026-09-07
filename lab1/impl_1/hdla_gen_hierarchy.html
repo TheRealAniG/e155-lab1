@@ -3,9 +3,17 @@ Starting: parse design source files
 (VERI-1482) Analyzing Verilog file 'C:/lscc/radiant/2026.1/cae_library/synthesis/verilog/iCE40UP.v'
 (VERI-1482) Analyzing Verilog file 'C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_7segment.sv'
 (VERI-1482) Analyzing Verilog file 'C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv'
-WARNING <2043208> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv(20,17-20,31) (VERI-1208) literal value 'd19_999_999 truncated to fit in 24 bits
 (VERI-1482) Analyzing Verilog file 'C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv'
+(VERI-1482) Analyzing Verilog file 'C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/testbenchTOP.sv'
+(VERI-1482) Analyzing Verilog file 'C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/testbenchBLINKER.sv'
+(VERI-1482) Analyzing Verilog file 'C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv'
 INFO <2043018> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv(7,8-7,11) (VERI-1018) compiling module 'top'
-Done: design load finished with (0) errors, and (1) warnings
+INFO <2043018> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(5,8-5,18) (VERI-1018) compiling module 'segment_tb'
+WARNING <2043330> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(13,17-13,18) (VERI-1330) actual bit length 1 differs from formal bit length 4 for port 's'
+WARNING <2043330> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(13,26-13,29) (VERI-1330) actual bit length 1 differs from formal bit length 7 for port 'seg'
+ERROR <2044366> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(34,16-34,19) (VERI-2366) mixed concurrent and procedural assignments on 'seg'
+WARNING <2043318> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(32,2-35,7) (VERI-1318) variable 'seg' might have multiple concurrent drivers
+INFO <2043972> - C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv(13,26-13,29) (VERI-1972) found another concurrent driver of 'seg' here
+Done: design load finished with (1) errors, and (3) warnings
 
 </PRE></BODY></HTML>
