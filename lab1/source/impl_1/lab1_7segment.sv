@@ -1,15 +1,8 @@
-//Anirudh Gupta
-//anirgupta@g.hmc.edu
-//9/6/2026
-//This module controls a 7 segment display based off switch input.
-//The display shows hexidecimal representations of the 15 possible switch combinations
-
 module segment(
-	input   logic [3:0] s,
-	output  logic [6:0] seg
+	input   logic s[3:0],
+	output  logic seg[6:0]
 );
-	
-	//Turn on segments to create 0-F based on switch inputs
+
 	always_comb begin
 		case (s)
 			4'b0000: seg = 7'b0111111;

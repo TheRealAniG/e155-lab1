@@ -1,32 +1,23 @@
-//Anirudh Gupta
-//anirgupta@g.hmc.edu
-//9/6/2026
-//This module blinks an led at 2.4 Hz
-
-module blink #(parameter int WIDTH = 25, parameter int MAXCOUNT = 10000000)
-(
+module blink(
 	input   logic int_osc,
 	input   logic reset,
-	input   logic enable,
-	output  logic led
+	output  logic led[2:0] 
 );
 
-	logic [WIDTH-1:0] counter;
+	logic [24:0] counter;
    
 	// Counter
     always_ff @(posedge int_osc) begin
 		if(reset == 0) begin
 			counter <= 0;
-			led <= 0;
 		end
-		//48 Mhz clock, so for 2.4Hz toggle every 10 million cycles
-		else if(counter == MAXCOUNT-1) begin
+		if(counter == 25'd19_999_999) begin
 			counter <= 0;
-			led <= ~led;
+			led[2] <= 1'b1;
 		end
-		// increase counter otherwise (if enabled)
 		else begin
-			if(enable) counter <= counter + 1;
+			counter <= counter + 1;
+			led[2] <= 1'b0;
 		end
 	end
 endmodule
