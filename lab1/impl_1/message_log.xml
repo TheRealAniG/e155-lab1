@@ -2,8 +2,9 @@
 <BaliMessageLog>
     <Task name="Synthesis">
         <Message>
-            <ID>35831036</ID>
-            <Severity>256</Severity>
+            <ID>35831038</ID>
+            <Severity>1</Severity>
+            <Dynamic>top</Dynamic>
         </Message>
         <Message>
             <ID>35921014</ID>
@@ -809,10 +810,6 @@
         <Message>
             <ID>35001797</ID>
             <Severity>1</Severity>
-        </Message>
-        <Message>
-            <ID>35001476</ID>
-            <Severity>256</Severity>
         </Message>
         <Message>
             <ID>35901018</ID>

@@ -45,6 +45,7 @@
 -sver "../lab1_blinker.sv"
 -sver "../lab1_top.sv"
 -path ".."
+-top top
 # Output Configuration
 -udb "lab1_impl_1_rtl.udb"
 -output_hdl "lab1_impl_1.vm"

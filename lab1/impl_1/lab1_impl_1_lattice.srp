@@ -5,18 +5,12 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2026 Lattice Semiconductor Corporation,  All rights reserved.
-Mon Sep  7 15:40:03 2026
+Mon Sep  7 19:40:19 2026
 
 
 Command Line:  C:\lscc\radiant\2026.1\ispfpga\bin\nt64\synthesis.exe -f C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/impl_1/lab1_impl_1_lattice.synproj -logfile lab1_impl_1_lattice.srp -gui -msgset C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/promote.xml 
 
 Lattice Synthesis Engine launched.
-
-CRITICAL <35002005> - synthesis: Top-level unit not specified. This may cause functional errors after synthesis.
-Please set the correct top-level unit via:
-  - GUI: Project > Active Implementation > Set Top-Level Unit...
-  - TCL: prj_set_top_module <name>
-  - CLI: -top <name>
 
 Synthesis options:
 The -a option is iCE40UP.
@@ -58,7 +52,7 @@ INFO <35001797> - synthesis: Use DCC Insertion disabled by default.
 ----------------------------------------------------------------
 Optimization Goal     | Area
 ----------------------------------------------------------------
-Top-level Module Name | 
+Top-level Module Name | top
 ----------------------------------------------------------------
 Target Frequency      | 200.000 MHz
 ----------------------------------------------------------------
@@ -123,7 +117,6 @@ Output HDL filename: lab1_impl_1.vm
 -path ../source/impl_1 (searchpath added)
 -path C:/lscc/radiant/2026.1/ispfpga/ice40tp/data (searchpath added)
 Mixed language design
-CRITICAL <35001476> - synthesis: A top-level module has not been specified for the mixed language design.
 Verilog design file: C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v
 Verilog design file: ../lab1_7segment.sv
 Verilog design file: ../lab1_blinker.sv
@@ -141,7 +134,6 @@ Analyzing Verilog file C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v. VERI-1482
 Analyzing Verilog file ../lab1_7segment.sv. VERI-1482
 Analyzing Verilog file ../lab1_blinker.sv. VERI-1482
 Analyzing Verilog file ../lab1_top.sv. VERI-1482
-Setting 'top' as the top-level module.
 Top module name (Verilog): top
 INFO <35901018> - synthesis: ../lab1_top.sv(7): compiling module top. VERI-1018
 INFO <35901018> - synthesis: C:/lscc/radiant/2026.1/ispfpga\..\cae_library\synthesis\verilog\iCE40UP.v(756): compiling module HSOSC(CLKHF_DIV=2'b01). VERI-1018
@@ -201,14 +193,14 @@ Number of Clock Enables: 0
 Highest fanout non-clock nets
 Top 10 highest fanout non-clock nets:
   Net : blink/n16, loads : 34
-  Net : blink/n215, loads : 14
+  Net : blink/n208, loads : 14
   Net : blink/n105[23], loads : 14
   Net : blink/n105[24], loads : 14
-  Net : blink/n105[21], loads : 13
-  Net : blink/n213, loads : 13
+  Net : blink/n206, loads : 13
   Net : blink/n105[22], loads : 13
+  Net : blink/n105[21], loads : 13
   Net : blink/n105[20], loads : 12
-  Net : blink/n211, loads : 12
+  Net : blink/n204, loads : 12
   Net : blink/n105[19], loads : 12
 ################### End Clock Report ##################
 
@@ -224,4 +216,4 @@ Peak Memory Usage: 88 MB
 Total CPU Time: 0 secs 
 Total REAL Time: 3 secs 
 --------------------------------------------------------------
-Checksum -- synthesis -- netlist: c29eb1eab82a99e9b38a7cbe4d47a8c6800a28db
+Checksum -- synthesis -- netlist: 52289ff29495931294508870e627aee74d720d32
