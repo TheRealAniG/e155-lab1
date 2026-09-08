@@ -6,6 +6,8 @@
 "C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_7segment.sv" 
 "C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv" 
 "C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv" 
+"C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/testbenchTOP.sv" 
+"C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/testbenchBLINKER.sv" 
 "C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv" 
 -sv
 -optionset VOPTDEBUG
@@ -24,4 +26,4 @@
 
 -do "view wave"
 -do "add wave /*"
--do "run 1000 ns"
+-do "run 100 ns"

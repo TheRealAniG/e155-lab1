@@ -8,7 +8,7 @@ Package: SG48
 Performance Grade:  High-Performance_1.2V
 
 Mapper:    version Radiant Software (64-bit) 2026.1.0.37.0
-Mapped on: Mon Sep  7 19:40:26 2026
+Mapped on: Mon Sep  7 20:39:35 2026
 
 Design Information
 ------------------
@@ -25,8 +25,7 @@ Design Summary
    Number of slice registers:  26 out of  5280 (<1%)
    Number of I/O registers:      0 out of   117 (0%)
    Number of LUT4s:            46 out of  5280 (1%)
-      Number of logic LUT4s:              19
-      Number of replicated LUT4s:          1
+      Number of logic LUT4s:              20
       Number of ripple logic:             13 (26 LUT4s)
    Number of IO sites used:   16 out of 39 (41%)
       Number of IO sites used for general PIO: 16
@@ -60,6 +59,7 @@ Design Summary
       Net blink.n16: 13 loads
       Net s_c[0]: 8 loads
       Net s_c[1]: 8 loads
+      Net s_c[2]: 8 loads
 
                                     Page 1
 
@@ -69,13 +69,12 @@ Design Summary
 
 Design Summary (cont)
 ---------------------
-      Net s_c[2]: 8 loads
       Net s_c[3]: 8 loads
-      Net blink.counter[16]: 3 loads
-      Net blink.counter[20]: 3 loads
       Net VCC_net: 3 loads
       Net blink.counter[0]: 2 loads
-      Net blink.counter[12]: 2 loads
+      Net blink.counter[11]: 2 loads
+      Net blink.counter[14]: 2 loads
+      Net blink.counter[16]: 2 loads
 
 
 
@@ -127,6 +126,7 @@ IO (PIO) Attributes
 +---------------------+-----------+-----------+-------+-------+-----------+
 | seg[0]              | OUTPUT    |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
+| int_osc             | OUTPUT    |           |       |       |           |
 
                                     Page 2
 
@@ -136,7 +136,6 @@ IO (PIO) Attributes
 
 IO (PIO) Attributes (cont)
 --------------------------
-| int_osc             | OUTPUT    |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
 
 Removed logic
@@ -172,7 +171,8 @@ Run Time and Memory Usage
    Total CPU Time: 0 secs
    Total REAL Time: 0 secs
    Peak Memory Usage: 66 MB
-Checksum -- map: 48d394d7b5f61f15a752a9eaa1296cd63cbd0c62
+Checksum -- map: 25c2ad07f1115e9b2324493a2a97bbdd3ca88f4c
+
 
 
 

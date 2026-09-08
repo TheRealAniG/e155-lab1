@@ -18,15 +18,14 @@ module blink #(parameter int WIDTH = 25, parameter int MAXCOUNT = 20000000)
 			counter <= 0;
 			led <= 0;
 		end
-		//48 Mhz clock, so for 2.4Hz blink every 20 million cycles
+		//48 Mhz clock, so for 2.4Hz toggle every 20 million cycles
 		else if(counter == MAXCOUNT-1) begin
 			counter <= 0;
-			led <= 1;
+			led <= ~led;
 		end
-		// LED off otherwise
+		// increase counter otherwise
 		else begin
 			counter <= counter + 1;
-			led <= 0;
 		end
 	end
 endmodule

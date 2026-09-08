@@ -7,6 +7,8 @@
 "C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv" 
 "C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv" 
 "C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/testbenchTOP.sv" 
+"C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/testbenchBLINKER.sv" 
+"C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv" 
 -sv
 -optionset VOPTDEBUG
 +noacc+pmi_work.*

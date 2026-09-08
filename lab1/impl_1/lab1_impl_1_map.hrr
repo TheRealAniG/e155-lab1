@@ -10,15 +10,15 @@ Report for cell top
                                 PFUREG	         26        100.0
 SUB MODULES
                                   cell	      count    LUT4 Usage(%)
-                                 blink	          1        76.1
+                                 blink	          1        78.3
                                segment	          1        15.2
 ---------------------------------------------------
 Report for cell blink
    Instance path: top/blink
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  LUT4	         35        76.1
-                               LUTGATE	          9        45.0
+                                  LUT4	         36        78.3
+                               LUTGATE	         10        50.0
                                 LUTCCU	         26        100.0
                                 PFUREG	         26        100.0
 ---------------------------------------------------
