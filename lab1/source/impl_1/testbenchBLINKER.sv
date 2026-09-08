@@ -38,7 +38,9 @@ module blink_tb ();
         // A full clock cycle is #10.
 
         // Test 1 Reset
-        reset = 1;                      // Set up inputs
+        reset = 1;
+		#1;		
+        // Set up inputs
         assert (dut.counter == 0)     // Check outputs
             $display("PASSED! The blinker behaves as desired at time: %0t.", $time);
         else

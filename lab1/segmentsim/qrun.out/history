@@ -16,3 +16,9 @@
 - Entry: 6
   Time: Mon Sep 07 23:00:44 2026
   Command: C:\lscc\radiant\2026.1\questasim\win64\qrun.exe -reportprogress 300 -guimode -f C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/segmentsim/segmentsim.f 
+- Entry: 7
+  Time: Tue Sep 08 03:07:50 2026
+  Command: C:\lscc\radiant\2026.1\questasim\win64\qrun.exe -reportprogress 300 -guimode -f C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/segmentsim/segmentsim.f 
+- Entry: 8
+  Time: Tue Sep 08 03:09:03 2026
+  Command: C:\lscc\radiant\2026.1\questasim\win64\qrun.exe -reportprogress 300 -guimode -f C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/segmentsim/segmentsim.f 
