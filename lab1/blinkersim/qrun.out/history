@@ -1,0 +1,24 @@
+- Entry: 1
+  Time: Mon Sep 07 20:29:55 2026
+  Command: C:\lscc\radiant\2026.1\questasim\win64\qrun.exe -reportprogress 300 -guimode -clean -f C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/blinkersim/blinkersim.f 
+- Entry: 2
+  Time: Mon Sep 07 20:52:32 2026
+  Command: C:\lscc\radiant\2026.1\questasim\win64\qrun.exe -reportprogress 300 -guimode -f C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/blinkersim/blinkersim.f 
+- Entry: 3
+  Time: Mon Sep 07 23:02:10 2026
+  Command: C:\lscc\radiant\2026.1\questasim\win64\qrun.exe -reportprogress 300 -guimode -f C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/blinkersim/blinkersim.f 
+- Entry: 4
+  Time: Mon Sep 07 23:04:51 2026
+  Command: C:\lscc\radiant\2026.1\questasim\win64\qrun.exe -reportprogress 300 -guimode -f C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/blinkersim/blinkersim.f 
+- Entry: 5
+  Time: Mon Sep 07 23:06:44 2026
+  Command: C:\lscc\radiant\2026.1\questasim\win64\qrun.exe -reportprogress 300 -guimode -f C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/blinkersim/blinkersim.f 
+- Entry: 6
+  Time: Mon Sep 07 23:19:47 2026
+  Command: C:\lscc\radiant\2026.1\questasim\win64\qrun.exe -reportprogress 300 -guimode -f C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/blinkersim/blinkersim.f 
+- Entry: 7
+  Time: Mon Sep 07 23:26:18 2026
+  Command: C:\lscc\radiant\2026.1\questasim\win64\qrun.exe -reportprogress 300 -guimode -f C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/blinkersim/blinkersim.f 
+- Entry: 8
+  Time: Mon Sep 07 23:31:36 2026
+  Command: C:\lscc\radiant\2026.1\questasim\win64\qrun.exe -reportprogress 300 -guimode -f C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/blinkersim/blinkersim.f 

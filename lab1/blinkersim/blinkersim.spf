@@ -1,0 +1,13 @@
+<RadiantSimulationProject language="1" name="blinkersim" path="." simType="QuestaSim Qrun" stage="0" version="2.0">
+    <Source include="none" langstandard="System Verilog" path="lab1_7segment.sv" type="VERILOG" worklib="work"/>
+    <Source include="none" langstandard="System Verilog" path="lab1_blinker.sv" type="VERILOG" worklib="work"/>
+    <Source include="none" langstandard="System Verilog" path="lab1_top.sv" type="VERILOG" worklib="work"/>
+    <Source include="none" langstandard="System Verilog" path="testbenchTOP.sv" type="VERILOG" worklib="work"/>
+    <Source include="none" langstandard="System Verilog" path="source/impl_1/testbenchBLINKER.sv" type="VERILOG" worklib="work"/>
+    <Source include="none" langstandard="System Verilog" path="source/impl_1/tesbenchSEGMENT.sv" type="VERILOG" worklib="work"/>
+    <SimLib value="pmi_work ovi_ice40up"/>
+    <GlbInc value=""/>
+    <Macro value=""/>
+    <Udo value=""/>
+    <TopModule instance="" language="VERILOG" name="blink_tb"/>
+</RadiantSimulationProject>
