@@ -2,7 +2,6 @@
 -lib pmi -vhd "C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.vhd"
 -sver "C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_7segment.sv" "C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv" "C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv"
 -path "C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1" "C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1"
--top top
 -isTop
 -a "iCE40UP"
 -t "iCE40UP5K"
