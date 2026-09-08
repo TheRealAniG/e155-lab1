@@ -793,11 +793,21 @@
         <Message>
             <ID>35901209</ID>
             <Severity>16</Severity>
-            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv(28): </Dynamic>
+            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv(29): </Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>25</Dynamic>
             <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv</Navigation>
-            <Navigation>28</Navigation>
+            <Navigation>29</Navigation>
+        </Message>
+        <Message>
+            <ID>35901330</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv(21): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>1</Dynamic>
+            <Dynamic>enable</Dynamic>
+            <Navigation>C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv</Navigation>
+            <Navigation>21</Navigation>
         </Message>
         <Message>
             <ID>35901018</ID>
@@ -838,11 +848,21 @@
         <Message>
             <ID>35901209</ID>
             <Severity>16</Severity>
-            <Dynamic>../lab1_blinker.sv(28): </Dynamic>
+            <Dynamic>../lab1_blinker.sv(29): </Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>25</Dynamic>
             <Navigation>../lab1_blinker.sv</Navigation>
-            <Navigation>28</Navigation>
+            <Navigation>29</Navigation>
+        </Message>
+        <Message>
+            <ID>35901330</ID>
+            <Severity>16</Severity>
+            <Dynamic>../lab1_top.sv(21): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>1</Dynamic>
+            <Dynamic>enable</Dynamic>
+            <Navigation>../lab1_top.sv</Navigation>
+            <Navigation>21</Navigation>
         </Message>
         <Message>
             <ID>35901018</ID>

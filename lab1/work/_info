@@ -54,10 +54,11 @@ o-quiet -auto_acc_if_foreign -work work -L iCE40UP
 R10
 n@_opt1
 R11
+R2
 vblink
 2C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv
 Z12 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
-Z13 !s110 1788752687
+!s110 1788752687
 !i10b 1
 !s100 9h]<L47XFDEn`RA?6:25:2
 IUHOlFka3GLRXbJ;XL0kIb2
@@ -68,42 +69,92 @@ w1788751238
 FC:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv
 !i122 10
 L0 6 26
-Z14 VDg1SIo80bB@j0V0VzS_@n1
-Z15 OL;L;2025.2;82
+Z13 VDg1SIo80bB@j0V0VzS_@n1
+Z14 OL;L;2025.2;82
 r1
 !s85 0
 31
-Z16 !s108 1788752687.000000
+!s108 1788752687.000000
 !s107 C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv|
 !i113 0
-Z17 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z18 tCvgOpt 0 defaultOptions 1085333592
-vsegment
-2C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_7segment.sv
+Z15 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z16 tCvgOpt 0 defaultOptions 1085333592
+vblink_tb
+2C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/testbenchBLINKER.sv
 R12
-R13
+Z17 !s110 1788848669
 !i10b 1
-!s100 8e;McG7@f^TRZ8h?b_V_<2
-I3jilHjQS4N8FfzGYa?34F2
+!s100 z<g4AmnKnNDn`jC1d;_S_2
+Ifz90egMF2=g7m?Kl_JHU31
 S1
 R2
-w1788736437
-8C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_7segment.sv
-FC:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_7segment.sv
-!i122 9
-L0 7 28
+w1788847572
+8C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/testbenchBLINKER.sv
+FC:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/testbenchBLINKER.sv
+!i122 17
+L0 8 72
+R13
 R14
-R15
 r1
 !s85 0
 31
-R16
-!s107 C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_7segment.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_7segment.sv|
+Z18 !s108 1788848669.000000
+!s107 C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/testbenchBLINKER.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/testbenchBLINKER.sv|
 !i113 0
+Z19 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R16
+vsegment
+2C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/lab1_7segment.sv
+R12
+!s110 1788848668
+!i10b 1
+!s100 8e;McG7@f^TRZ8h?b_V_<2
+Iz00aaH0jbTZm463l>o_YM0
+S1
+R2
+w1788736062
+8C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/lab1_7segment.sv
+FC:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/lab1_7segment.sv
+!i122 15
+L0 7 28
+R13
+R14
+r1
+!s85 0
+31
+!s108 1788848668.000000
+!s107 C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/lab1_7segment.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/lab1_7segment.sv|
+!i113 0
+R19
+R16
+vsegment_tb
+2C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv
+R12
 R17
+!i10b 1
+!s100 h[KnYNY@N=Giof<WcOlDP2
+ILkefmhS@4V;BA`IZ0eD8G1
+S1
+R2
+w1788812294
+8C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv
+FC:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv
+!i122 16
+L0 10 65
+R13
+R14
+r1
+!s85 0
+31
 R18
+!s107 C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv|
+!i113 0
+R19
+R16
 vtop
 2C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv
 R12
@@ -118,8 +169,8 @@ w1788751235
 FC:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv
 !i122 11
 L0 7 22
+R13
 R14
-R15
 r1
 !s85 0
 31
@@ -127,5 +178,5 @@ r1
 !s107 C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv|
 !i113 0
-R17
-R18
+R15
+R16

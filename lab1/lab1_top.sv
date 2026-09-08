@@ -11,13 +11,14 @@ module top(
 	output  logic [6:0] seg,
 	output 	logic       int_osc
 );
+	logic  enable;
    
     //Clock generation
 	HSOSC #(.CLKHF_DIV(2'b00))
 		hf_osc (.CLKHFPU(1'b1), .CLKHFEN(1'b1), .CLKHF(int_osc));
 		 
 	//modules
-	blink blink(.int_osc(int_osc), .reset(reset), .led(led[2]));
+	blink blink(.int_osc(int_osc), .reset(reset), .enable(1), .led(led[2]));
 	segment segment(.s(s), .seg(seg));
 	
 	//combinational logic for LEDs

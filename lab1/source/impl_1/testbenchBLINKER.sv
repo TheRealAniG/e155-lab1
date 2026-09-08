@@ -8,12 +8,14 @@
 module blink_tb ();
 
     logic clk;    // system clock
-    logic reset;  // active high reset
+    logic reset;  // active high 
     logic led;    // output LED
+	logic enable;
 
     blink #(.MAXCOUNT(5)) dut (
         .int_osc(clk),
         .reset(reset),
+		.enable(enable),
         .led(led)
     );
 
@@ -27,28 +29,44 @@ module blink_tb ();
 
     // Apply stimuli and check outputs
     initial begin
-        reset = 1;
-        #22;
+		enable = 1;
         reset = 0;
+        #22;
 
         // For each test case, set up the inputs, wait for the outputs
         // to update, and then check that the outputs match what we expect.
         // A full clock cycle is #10.
 
         // Test 1 Reset
-        reset = 1;                      // Set up inputs                         
+        reset = 1;                      // Set up inputs
         assert (dut.counter == 0)     // Check outputs
             $display("PASSED! The blinker behaves as desired at time: %0t.", $time);
         else
             $error("FAILED! The blinker behaves incorrectly at time: %0t.", $time);
 
-        // Test 2 Enable LED and maxcount
-        reset = 0;
+        // Test 2 maxcount
         #50;
         assert (dut.counter == 0 && led == 1)
             $display("PASSED! The blinker behaves as desired at time: %0t.", $time);
         else
             $error("FAILED! The blinker behaves incorrectly at time: %0t.", $time);
+			
+		// Test 3 enable off
+		enable = 0;
+        #40;
+        assert (dut.counter == 0)
+            $display("PASSED! The blinker behaves as desired at time: %0t.", $time);
+        else
+            $error("FAILED! The blinker behaves incorrectly at time: %0t.", $time);
+		
+		// Test 3 enable on
+		enable = 1;
+        #40;
+        assert (dut.counter > 0)
+            $display("PASSED! The blinker behaves as desired at time: %0t.", $time);
+        else
+            $error("FAILED! The blinker behaves incorrectly at time: %0t.", $time);
+			
 			
         #100;
         $stop;

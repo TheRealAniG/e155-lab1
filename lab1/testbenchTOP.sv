@@ -23,9 +23,9 @@ module top_tb ();
 
     // Apply stimuli and check outputs
     initial begin
-        reset = 1;
-        #22;
         reset = 0;
+        #22;
+        reset = 1;
 
         // For each test case, set up the inputs, wait for the outputs
         // to update, and then check that the outputs match what we expect.
@@ -35,34 +35,51 @@ module top_tb ();
         s = 4'b0000;                // setup inputs
         #10;                        // wait required time
         assert (led == 3'b000)       // check outputs
-            $display("PASSED! The led controller behaves as desired at time: %0t.", $time);
+            $display("PASSED! The top module behaves as desired at time: %0t.", $time);
         else 
-            $error("FAILED! The led controller behaves incorrectly at time: %0t.", $time);
+            $error("FAILED! The top module behaves incorrectly at time: %0t.", $time);
 
         // Test 2 
         s = 4'b0101;                // setup inputs
         #10;                        // wait required time
         assert (led == 3'b001)       // check outputs
-            $display("PASSED! The led controller behaves as desired at time: %0t.", $time);
+            $display("PASSED! The top module behaves as desired at time: %0t.", $time);
         else 
-            $error("FAILED! The led controller behaves incorrectly at time: %0t.", $time);
+            $error("FAILED! The top module behaves incorrectly at time: %0t.", $time);
 			
 		// Test 3 
         s = 4'b1010;                // setup inputs
         #10;                        // wait required time
         assert (led == 3'b001)       // check outputs
-            $display("PASSED! The led controller behaves as desired at time: %0t.", $time);
+            $display("PASSED! The top module behaves as desired at time: %0t.", $time);
         else 
-            $error("FAILED! The led controller behaves incorrectly at time: %0t.", $time);
+            $error("FAILED! The top module behaves incorrectly at time: %0t.", $time);
 			
 		// Test 4 
         s = 4'b1111;                // setup inputs
         #10;                        // wait required time
         assert (led == 3'b010)       // check outputs
-            $display("PASSED! The led controller behaves as desired at time: %0t.", $time);
+            $display("PASSED! The top module behaves as desired at time: %0t.", $time);
         else 
-            $error("FAILED! The led controller behaves incorrectly at time: %0t.", $time);
+            $error("FAILED! The top module behaves incorrectly at time: %0t.", $time);
 			
+		
+		// Test 5 - connection to segment submodule
+		s = 4'b1111;                // setup inputs
+        #10;                        // wait required time
+        assert (dut.segment.s == 4'b1111)       // check outputs
+            $display("PASSED! The top module behaves as desired at time: %0t.", $time);
+        else 
+            $error("FAILED! The top module behaves incorrectly at time: %0t.", $time);
+			
+		
+		// Test 6 - connection to blinker submodule
+        #10;                        // wait required time
+        assert (dut.blink.enable == 1)       // check outputs
+            $display("PASSED! The top module behaves as desired at time: %0t.", $time);
+        else 
+            $error("FAILED! The top module behaves incorrectly at time: %0t.", $time);
+		
         #100;
         $stop;
     end

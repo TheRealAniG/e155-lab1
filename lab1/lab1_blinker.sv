@@ -7,6 +7,7 @@ module blink #(parameter int WIDTH = 25, parameter int MAXCOUNT = 10000000)
 (
 	input   logic int_osc,
 	input   logic reset,
+	input   logic enable,
 	output  logic led
 );
 
@@ -23,9 +24,9 @@ module blink #(parameter int WIDTH = 25, parameter int MAXCOUNT = 10000000)
 			counter <= 0;
 			led <= ~led;
 		end
-		// increase counter otherwise
+		// increase counter otherwise (if enabled)
 		else begin
-			counter <= counter + 1;
+			if(enable) counter <= counter + 1;
 		end
 	end
 endmodule

@@ -2,6 +2,7 @@ m255
 K4
 z2
 Z0 !s99 nomlopt
+R0
 !s11f vlog 2025.2 2025.05, May 31 2025
 13
 !s112 1.1
@@ -13,23 +14,23 @@ Z1 dC:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/topsim
 vblink
 Z2 2C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_7segment.sv|C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv|C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv|C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/testbenchTOP.sv|C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/testbenchBLINKER.sv|C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv
 Z3 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
-Z4 !s110 1788838486
+Z4 !s110 1788849283
 !i10b 1
-!s100 =Vo1W?zhVzL]_jzQ11YIW2
-IO;;1G>40L2U`lIcnnj2Jb2
+!s100 Nfco_YkNPY<o?iki6nkmT1
+IRli^i;?8S6GW>NFCManHN3
 S1
 R1
-w1788837688
+w1788848556
 8C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv
 FC:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv
-!i122 0
-L0 6 26
+!i122 1
+L0 6 27
 Z5 VDg1SIo80bB@j0V0VzS_@n1
 Z6 OL;L;2025.2;82
 r1
 !s85 0
 31
-Z7 !s108 1788838486.000000
+Z7 !s108 1788849283.000000
 Z8 !s107 C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv|C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/testbenchBLINKER.sv|C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/testbenchTOP.sv|C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv|C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv|C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_7segment.sv|
 Z9 !s90 -reportprogress|300|-L|work|-sv|-L|pmi_work|-L|ovi_ice40up|C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_7segment.sv|C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_blinker.sv|C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv|C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/testbenchTOP.sv|C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/testbenchBLINKER.sv|C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/tesbenchSEGMENT.sv|-work|qrun.out/work|-statslog|qrun.out/stats_log|-csession=incr|
 !i113 0
@@ -40,15 +41,15 @@ R2
 R3
 R4
 !i10b 1
-!s100 Ulo9PIYAzZhm;E:73HMCQ3
-IQJ=OJ0AVL0C783eYe<cZf2
+!s100 QIWL]FO24gdJa<M:D56hk1
+I>1R>:;Q_=b2K]=>5ZRGe22
 S1
 R1
-w1788818725
+w1788849070
 8C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/testbenchBLINKER.sv
 FC:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/source/impl_1/testbenchBLINKER.sv
-!i122 0
-L0 8 50
+!i122 1
+L0 8 68
 R5
 R6
 r1
@@ -63,8 +64,8 @@ R11
 Tqrun_opt
 !i145 1
 !i144 0
-R4
-VR>YKRm0jThbHjQmF>RNHz1
+!s110 1788849284
+VE`PQeXcD7e2dR61M@Tom[0
 04 6 4 work top_tb fast 0
 R0
 !s12f OEM25U4 
@@ -78,7 +79,7 @@ OL;O;2025.2;82
 vsegment
 R2
 R3
-R4
+Z12 !s110 1788838486
 !i10b 1
 !s100 1lYP9m?=A?7RI_5mP;oVz2
 IQQ2lLcYhDT]4Q1R02T;ZP1
@@ -94,7 +95,7 @@ R6
 r1
 !s85 0
 31
-R7
+Z13 !s108 1788838486.000000
 R8
 R9
 !i113 0
@@ -103,7 +104,7 @@ R11
 vsegment_tb
 R2
 R3
-R4
+R12
 !i10b 1
 !s100 h[KnYNY@N=Giof<WcOlDP2
 IckKg>X=8O<OX;fgWXXT7A0
@@ -119,7 +120,7 @@ R6
 r1
 !s85 0
 31
-R7
+R13
 R8
 R9
 !i113 0
@@ -130,15 +131,15 @@ R2
 R3
 R4
 !i10b 1
-!s100 _A:B5mgL48gUdaenE>0Z^2
-IHhKF>nXWGaL=O7RHPHfaA3
+!s100 A<ML]Off8N[W_a13W[VUA0
+I0_9=8I1e526lWk0O4l@6j1
 S1
 R1
-w1788835217
+w1788846790
 8C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv
 FC:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/lab1_top.sv
-!i122 0
-L0 7 21
+!i122 1
+L0 7 23
 R5
 R6
 r1
@@ -155,15 +156,15 @@ R2
 R3
 R4
 !i10b 1
-!s100 S@iHceMNAA6nPea2LVKL=0
-In<K[YI?[`f8MWgf:IVh_c3
+!s100 aAjDI@YlfU=iKFL7?>UkP0
+IojYSQCI>4be@zZC;5BNfT0
 S1
 R1
-w1788819585
+w1788846810
 8C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/testbenchTOP.sv
 FC:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/testbenchTOP.sv
-!i122 0
-L0 8 63
+!i122 1
+L0 8 80
 R5
 R6
 r1
