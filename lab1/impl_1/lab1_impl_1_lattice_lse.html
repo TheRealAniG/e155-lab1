@@ -48,7 +48,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2026 Lattice Semiconductor Corporation,  All rights reserved.
-Mon Sep  7 20:39:27 2026
+Mon Sep  7 21:19:24 2026
 
 
 Command Line:  C:\lscc\radiant\2026.1\ispfpga\bin\nt64\synthesis.exe -f C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/impl_1/lab1_impl_1_lattice.synproj -logfile lab1_impl_1_lattice.srp -gui -msgset C:/Users/anirgupta/Desktop/e155-lab1/e155-lab1/lab1/promote.xml 
@@ -179,7 +179,7 @@ Analyzing Verilog file ../lab1_blinker.sv. VERI-1482
 Analyzing Verilog file ../lab1_top.sv. VERI-1482
 Top module name (Verilog): top
 INFO <35901018> - synthesis: ../lab1_top.sv(7): compiling module top. VERI-1018
-INFO <35901018> - synthesis: C:/lscc/radiant/2026.1/ispfpga\..\cae_library\synthesis\verilog\iCE40UP.v(756): compiling module HSOSC(CLKHF_DIV=2'b01). VERI-1018
+INFO <35901018> - synthesis: C:/lscc/radiant/2026.1/ispfpga\..\cae_library\synthesis\verilog\iCE40UP.v(756): compiling module HSOSC(CLKHF_DIV=2'b0). VERI-1018
 INFO <35901018> - synthesis: ../lab1_blinker.sv(6): compiling module blink. VERI-1018
 WARNING <35901209> - synthesis: ../lab1_blinker.sv(28): expression size 32 truncated to fit in target size 25. VERI-1209
 INFO <35901018> - synthesis: ../lab1_7segment.sv(7): compiling module segment. VERI-1018
@@ -190,12 +190,12 @@ INFO <35901018> - synthesis: ../lab1_7segment.sv(7): compiling module segment. V
 
 	[Parameter Settings for Instance(s): hf_osc]
 	(Module: HSOSC)
-		CLKHF_DIV                 2'b01
+		CLKHF_DIV                 2'b00
 
 	[Parameter Settings for Instance(s): blink]
 	(Module: blink)
 		WIDTH                     25
-		MAXCOUNT                  20000000
+		MAXCOUNT                  10000000
 
 [Parameter Setting Section End]
 
@@ -227,7 +227,7 @@ CCU2 => 13
 FD1P3XZ => 26
 HSOSC_CORE => 1
 IB => 5
-LUT4 => 19
+LUT4 => 20
 OB => 11
 ################### End Area Report ##################
 Number of odd-length carry chains : 1
@@ -246,14 +246,14 @@ Highest fanout non-clock nets
 Top 10 highest fanout non-clock nets:
   Net : blink/n16, loads : 34
   Net : blink/n105[23], loads : 14
-  Net : blink/n208, loads : 14
+  Net : blink/n207, loads : 14
   Net : blink/n105[24], loads : 14
-  Net : blink/n105[22], loads : 13
-  Net : blink/n206, loads : 13
+  Net : blink/n205, loads : 13
   Net : blink/n105[21], loads : 13
-  Net : blink/n105[20], loads : 12
-  Net : blink/n204, loads : 12
+  Net : blink/n105[22], loads : 13
+  Net : blink/n203, loads : 12
   Net : blink/n105[19], loads : 12
+  Net : blink/n105[20], loads : 12
 ################### End Clock Report ##################
 
 
@@ -269,9 +269,9 @@ Peak Memory Usage: 88 MB
 
 --------------------------------------------------------------
 Total CPU Time: 0 secs 
-Total REAL Time: 3 secs 
+Total REAL Time: 2 secs 
 --------------------------------------------------------------
-Checksum -- synthesis -- netlist: fc913d8177897cab3ad6886b58d333410b70755
+Checksum -- synthesis -- netlist: d2414b52909957c91c3fbed7df694ce734991d93
 
 
 
