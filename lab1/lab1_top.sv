@@ -1,22 +1,28 @@
+//Anirudh Gupta
+//anirgupta@g.hmc.edu
+//9/6/2026
+//Top module
+//Also controls LEDs based on switch inputs
+
 module top(
-     input   logic reset,
-     output  logic led
+	input   logic [3:0] s,
+	input   logic       reset,
+	output  logic [2:0] led,
+	output  logic [6:0] seg,
+	output 	logic       int_osc
 );
-
-   logic int_osc;
-   logic [24:0] counter;
-
-   // Internal high-speed oscillator
-   HSOSC #(.CLKHF_DIV(2'b01))
-         hf_osc (.CLKHFPU(1'b1), .CLKHFEN(1'b1), .CLKHF(int_osc));
-
-   // Counter
-   always_ff @(posedge int_osc) begin
-     if(reset == 0)  counter <= 0;
-     else            counter <= counter + 1;
-   end
-
-   // Assign LED output
-   assign led = counter[24];
+	logic  enable;
+   
+    //Clock generation
+	HSOSC #(.CLKHF_DIV(2'b00))
+		hf_osc (.CLKHFPU(1'b1), .CLKHFEN(1'b1), .CLKHF(int_osc));
+		 
+	//modules
+	blink blink(.int_osc(int_osc), .reset(reset), .enable(1), .led(led[2]));
+	segment segment(.s(s), .seg(seg));
+	
+	//combinational logic for LEDs
+	assign led[0] = s[0] ^ s[1];
+	assign led[1] = s[2] & s[3];
 
 endmodule
